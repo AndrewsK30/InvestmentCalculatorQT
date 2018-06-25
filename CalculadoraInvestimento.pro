@@ -22,7 +22,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-
+CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
@@ -31,7 +31,19 @@ SOURCES += \
     originator.cpp \
     caretaker.cpp \
     stateone.cpp \
-    state.cpp
+    state.cpp \
+    statefactory.cpp \
+    statetwo.cpp \
+    statethree.cpp \
+    statefour.cpp \
+    investmentcontext.cpp \
+    financiamento.cpp \
+    investimento.cpp \
+    poupanca.cpp \
+    simulacaofacade.cpp \
+    tesouroselic.cpp \
+    investmentfactory.cpp \
+    cdb.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -40,7 +52,20 @@ HEADERS += \
     originator.h \
     caretaker.h \
     stateone.h \
-    state.h
+    state.h \
+    statefactory.h \
+    statetwo.h \
+    statethree.h \
+    statefour.h \
+    investmentcontext.h \
+    financiamento.h \
+    investimento.h \
+    poupanca.h \
+    simulacaofacade.h \
+    tesouroselic.h \
+    investmentfactory.h \
+    investmenttypes.h \
+    cdb.h
 
 FORMS += \
         mainwindow.ui

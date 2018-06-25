@@ -11,17 +11,15 @@ protected:
     State();
 public:
 
-    ~State();
-
     bool canGoNextState(QObject *form){
 
-        getInformation(form);
-        saveState();
+        getInformationAndSaveState(form);
 
-        if(infoIsValid()){
+        if(!infoIsValid()){
             displayErroMsg();
             return false;
         }
+        saveInContext();
 
         return true;
     }
@@ -32,10 +30,10 @@ public:
 
 protected:
     virtual void constructFromState(QObject *form)=0;
-    virtual void getInformation(QObject *form)=0;
+    virtual void getInformationAndSaveState(QObject *form)=0;
     virtual bool infoIsValid()=0;
     virtual void displayErroMsg()=0;
-    virtual void saveState()=0;
+    virtual void saveInContext(){}
 };
 
 #endif // STATE_H
