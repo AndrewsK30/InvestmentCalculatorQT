@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="statetwo_8cpp" kind="file" language="C++">
+    <compoundname>statetwo.cpp</compoundname>
+    <includes refid="investmentcontext_8h" local="yes">investmentcontext.h</includes>
+    <includes refid="statetwo_8h" local="yes">statetwo.h</includes>
+    <includes local="no">QComboBox</includes>
+    <includes local="no">qformlayout.h</includes>
+    <incdepgraph>
+      <node id="322">
+        <label>investmentcontext.h</label>
+        <link refid="investmentcontext_8h"/>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
+        </childnode>
+      </node>
+      <node id="324">
+        <label>QObject</label>
+      </node>
+      <node id="331">
+        <label>qformlayout.h</label>
+      </node>
+      <node id="328">
+        <label>state.h</label>
+        <link refid="state_8h"/>
+        <childnode refid="324" relation="include">
+        </childnode>
+      </node>
+      <node id="323">
+        <label>financiamento.h</label>
+        <link refid="financiamento_8h"/>
+        <childnode refid="324" relation="include">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>statetwo.cpp</label>
+        <link refid="statetwo_8cpp"/>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="327" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+        <childnode refid="331" relation="include">
+        </childnode>
+      </node>
+      <node id="326">
+        <label>QDate</label>
+      </node>
+      <node id="327">
+        <label>statetwo.h</label>
+        <link refid="statetwo_8h"/>
+        <childnode refid="328" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+      </node>
+      <node id="329">
+        <label>investmenttypes.h</label>
+        <link refid="investmenttypes_8h"/>
+      </node>
+      <node id="330">
+        <label>QComboBox</label>
+      </node>
+      <node id="325">
+        <label>investimento.h</label>
+        <link refid="investimento_8h"/>
+        <childnode refid="324" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="investmentcontext_8h" kindref="compound">investmentcontext.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="statetwo_8h" kindref="compound">statetwo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QComboBox&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qformlayout.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_state_two_1a803591f6f0d2514b8641602aa5e73ce2" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_state_two_1a803591f6f0d2514b8641602aa5e73ce2" kindref="member">StateTwo::getChoosedInvesment</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="8"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>choosedInvesment;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_state_two_1afcd150fde37f1ba61b392b36cff63d87" refkind="member"><highlight class="normal"><ref refid="class_state_two_1afcd150fde37f1ba61b392b36cff63d87" kindref="member">StateTwo::StateTwo</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_state_two_1af76176f107af4946db1a1f58d8baf00e" kindref="member">StateTwo::investmetList</ref>.append(POUPANCA);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_state_two_1af76176f107af4946db1a1f58d8baf00e" kindref="member">StateTwo::investmetList</ref>.append(TESOURO_SELIC);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_state_two_1a6608b7b7cbed0f45c47a7af375396799" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_two_1a6608b7b7cbed0f45c47a7af375396799" kindref="member">StateTwo::constructFromState</ref>(QObject<sp/>*form)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>QComboBox*<sp/>comboBox<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QComboBox;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>comboBox-&gt;addItems(this-&gt;<ref refid="class_state_two_1af76176f107af4946db1a1f58d8baf00e" kindref="member">investmetList</ref>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>comboBox-&gt;setObjectName(<ref refid="statetwo_8h_1aa8cf398536aa3bf75d07363bac4d3349" kindref="member">COMBO_BOX_CHOOSE_INVESTMENT</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>=<sp/>comboBox-&gt;findText(choosedInvesment);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>index<sp/>!=<sp/>-1<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>comboBox-&gt;setCurrentIndex(index);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>QFormLayout<sp/>*formLayout<sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal">QFormLayout*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(form);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(formLayout<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>formLayout-&gt;setWidget(0,QFormLayout::SpanningRole,comboBox);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_state_two_1a62c5661f759757f383d773e7a7a7913f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_two_1a62c5661f759757f383d773e7a7a7913f" kindref="member">StateTwo::getInformationAndSaveState</ref>(QObject<sp/>*form)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;choosedInvesment<sp/>=<sp/>form-&gt;findChild&lt;QComboBox*&gt;(<ref refid="statetwo_8h_1aa8cf398536aa3bf75d07363bac4d3349" kindref="member">COMBO_BOX_CHOOSE_INVESTMENT</ref>)-&gt;currentText();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_state_two_1abf8e3da47afddb27b449104a74cce1a9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_state_two_1abf8e3da47afddb27b449104a74cce1a9" kindref="member">StateTwo::infoIsValid</ref>()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_state_two_1adcd1b0b03bc3cedeefca4f3fa98916b9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_two_1adcd1b0b03bc3cedeefca4f3fa98916b9" kindref="member">StateTwo::displayErroMsg</ref>()</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="class_state_two_1a57a1488b99190fa28ef4a728a2c72911" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_two_1a57a1488b99190fa28ef4a728a2c72911" kindref="member">StateTwo::saveInContext</ref>()</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_investment_context_1ab8a4d7250517af915d518478740dab57" kindref="member">InvestmentContext::getInstance</ref>()-&gt;<ref refid="class_investment_context_1abdc5675e11a3fa67a8b09aae1cfccd23" kindref="member">setInvestment</ref>(&amp;this-&gt;choosedInvesment);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="statetwo.cpp"/>
+  </compounddef>
+</doxygen>

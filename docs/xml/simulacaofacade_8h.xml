@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="simulacaofacade_8h" kind="file" language="C++">
+    <compoundname>simulacaofacade.h</compoundname>
+    <includes local="no">QObject</includes>
+    <includes local="no">QString</includes>
+    <includes refid="financiamento_8h" local="yes">financiamento.h</includes>
+    <includes refid="investimento_8h" local="yes">investimento.h</includes>
+    <includedby refid="simulacaofacade_8cpp" local="yes">simulacaofacade.cpp</includedby>
+    <includedby refid="statefour_8cpp" local="yes">statefour.cpp</includedby>
+    <incdepgraph>
+      <node id="202">
+        <label>QObject</label>
+      </node>
+      <node id="201">
+        <label>simulacaofacade.h</label>
+        <link refid="simulacaofacade_8h"/>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+      </node>
+      <node id="204">
+        <label>financiamento.h</label>
+        <link refid="financiamento_8h"/>
+        <childnode refid="202" relation="include">
+        </childnode>
+      </node>
+      <node id="206">
+        <label>QDate</label>
+      </node>
+      <node id="203">
+        <label>QString</label>
+      </node>
+      <node id="205">
+        <label>investimento.h</label>
+        <link refid="investimento_8h"/>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="207">
+        <label>simulacaofacade.h</label>
+        <link refid="simulacaofacade_8h"/>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+      </node>
+      <node id="208">
+        <label>simulacaofacade.cpp</label>
+        <link refid="simulacaofacade_8cpp"/>
+      </node>
+      <node id="209">
+        <label>statefour.cpp</label>
+        <link refid="statefour_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_simulacao_facade" prot="public">SimulacaoFacade</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SIMULACAO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SIMULACAO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="financiamento_8h" kindref="compound">financiamento.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="investimento_8h" kindref="compound">investimento.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_simulacao_facade" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_simulacao_facade" kindref="compound">SimulacaoFacade</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QString<sp/>compararInvestimentoEFinanciamento(<ref refid="class_investimento" kindref="compound">Investimento</ref>*<sp/>investimento,<sp/><ref refid="class_financiamento" kindref="compound">Financiamento</ref>*<sp/>financiamento);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SIMULACAO_H</highlight></codeline>
+    </programlisting>
+    <location file="simulacaofacade.h"/>
+  </compounddef>
+</doxygen>

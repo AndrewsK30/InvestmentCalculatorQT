@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_state_four" kind="class" language="C++" prot="public">
+    <compoundname>StateFour</compoundname>
+    <basecompoundref refid="class_state" prot="public" virt="non-virtual">State</basecompoundref>
+    <includes refid="statefour_8h" local="no">statefour.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_state_four_1a461f2a75c56b044114fa662226fd15ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StateFour::StateFour</definition>
+        <argsstring>()</argsstring>
+        <name>StateFour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statefour.h" line="12" column="1" bodyfile="statefour.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_state_four_1a06d81d6438922f4203ce085898191b2b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StateFour::constructFromState</definition>
+        <argsstring>(QObject *form)</argsstring>
+        <name>constructFromState</name>
+        <reimplements refid="class_state_1a83742a76f279ed90fec9dd662c10e3b5">constructFromState</reimplements>
+        <param>
+          <type>QObject *</type>
+          <declname>form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statefour.h" line="16" column="1" bodyfile="statefour.cpp" bodystart="13" bodyend="26"/>
+        <references refid="class_simulacao_facade_1a8e7d6f1cb4b71baa0d37d27a6f642a41" compoundref="simulacaofacade_8cpp" startline="4" endline="23">SimulacaoFacade::compararInvestimentoEFinanciamento</references>
+        <references refid="class_investment_context_1ab8a4d7250517af915d518478740dab57" compoundref="investmentcontext_8h" startline="22" endline="29">InvestmentContext::getInstance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_state_four_1aeb4ce6b44845086017a4a13a0ad77a48" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StateFour::getInformationAndSaveState</definition>
+        <argsstring>(QObject *form)</argsstring>
+        <name>getInformationAndSaveState</name>
+        <reimplements refid="class_state_1ac1ce8d14817ed7e73fe6c9cb52138059">getInformationAndSaveState</reimplements>
+        <param>
+          <type>QObject *</type>
+          <declname>form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statefour.h" line="17" column="1" bodyfile="statefour.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_state_four_1a3cf88c30e9689ffa74dc469d80a3e58b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool StateFour::infoIsValid</definition>
+        <argsstring>()</argsstring>
+        <name>infoIsValid</name>
+        <reimplements refid="class_state_1a24c0c03b0e0ae455f6fa4147c0a9b50c">infoIsValid</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statefour.h" line="18" column="1" bodyfile="statefour.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_state_four_1ab0f22576b70ab82cc2aa46ff1677900d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StateFour::displayErroMsg</definition>
+        <argsstring>()</argsstring>
+        <name>displayErroMsg</name>
+        <reimplements refid="class_state_1a7c2060b170abf8d929d14ef257a7dd79">displayErroMsg</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statefour.h" line="19" column="1" bodyfile="statefour.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="46">
+        <label>StateFour</label>
+        <link refid="class_state_four"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>State</label>
+        <link refid="class_state"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="48">
+        <label>StateFour</label>
+        <link refid="class_state_four"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>State</label>
+        <link refid="class_state"/>
+      </node>
+    </collaborationgraph>
+    <location file="statefour.h" line="9" column="1" bodyfile="statefour.h" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_state_1adc3efce8b999ab26f4584d316f6b177b" prot="public" virt="non-virtual"><scope>StateFour</scope><name>canGoNextState</name></member>
+      <member refid="class_state_1aa4ddeb49e1ff1207ce99331f13db53ff" prot="public" virt="non-virtual"><scope>StateFour</scope><name>construct</name></member>
+      <member refid="class_state_four_1a06d81d6438922f4203ce085898191b2b" prot="protected" virt="virtual"><scope>StateFour</scope><name>constructFromState</name></member>
+      <member refid="class_state_four_1ab0f22576b70ab82cc2aa46ff1677900d" prot="protected" virt="virtual"><scope>StateFour</scope><name>displayErroMsg</name></member>
+      <member refid="class_state_four_1aeb4ce6b44845086017a4a13a0ad77a48" prot="protected" virt="virtual"><scope>StateFour</scope><name>getInformationAndSaveState</name></member>
+      <member refid="class_state_four_1a3cf88c30e9689ffa74dc469d80a3e58b" prot="protected" virt="virtual"><scope>StateFour</scope><name>infoIsValid</name></member>
+      <member refid="class_state_1a38b841d6fc5f6b26d6e5a7d1efdf4524" prot="protected" virt="virtual"><scope>StateFour</scope><name>saveInContext</name></member>
+      <member refid="class_state_1ab91bb1dd5aa6260ab2a456581daf9ec2" prot="protected" virt="non-virtual"><scope>StateFour</scope><name>State</name></member>
+      <member refid="class_state_four_1a461f2a75c56b044114fa662226fd15ed" prot="public" virt="non-virtual"><scope>StateFour</scope><name>StateFour</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="state_8cpp" kind="file" language="C++">
+    <compoundname>state.cpp</compoundname>
+    <includes refid="state_8h" local="yes">state.h</includes>
+    <incdepgraph>
+      <node id="212">
+        <label>QObject</label>
+      </node>
+      <node id="210">
+        <label>state.cpp</label>
+        <link refid="state_8cpp"/>
+        <childnode refid="211" relation="include">
+        </childnode>
+      </node>
+      <node id="211">
+        <label>state.h</label>
+        <link refid="state_8h"/>
+        <childnode refid="212" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="state_8h" kindref="compound">state.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_state_1ab91bb1dd5aa6260ab2a456581daf9ec2" refkind="member"><highlight class="normal"><ref refid="class_state_1ab91bb1dd5aa6260ab2a456581daf9ec2" kindref="member">State::State</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="state.cpp"/>
+  </compounddef>
+</doxygen>

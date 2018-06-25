@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="memento_8cpp" kind="file" language="C++">
+    <compoundname>memento.cpp</compoundname>
+    <includes refid="memento_8h" local="yes">memento.h</includes>
+    <incdepgraph>
+      <node id="149">
+        <label>QObject</label>
+      </node>
+      <node id="148">
+        <label>state.h</label>
+        <link refid="state_8h"/>
+        <childnode refid="149" relation="include">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>memento.cpp</label>
+        <link refid="memento_8cpp"/>
+        <childnode refid="147" relation="include">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>memento.h</label>
+        <link refid="memento_8h"/>
+        <childnode refid="148" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="memento_8h" kindref="compound">memento.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_memento_1aee7c86623a8b81fda84ffe7d68895eb8" refkind="member"><highlight class="normal"><ref refid="class_memento_1aee7c86623a8b81fda84ffe7d68895eb8" kindref="member">Memento::Memento</ref>(<ref refid="class_state" kindref="compound">State</ref><sp/>*state)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;state<sp/>=<sp/>state;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_memento_1abbdf2924953cc15b11cd6d206490146b" refkind="member"><highlight class="normal"><ref refid="class_state" kindref="compound">State</ref><sp/>*<ref refid="class_memento_1abbdf2924953cc15b11cd6d206490146b" kindref="member">Memento::getState</ref>()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;state;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="memento.cpp"/>
+  </compounddef>
+</doxygen>

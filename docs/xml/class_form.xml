@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_form" kind="class" language="C++" prot="public">
+    <compoundname>Form</compoundname>
+    <includes refid="form_8h" local="no">form.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_form_1a74d41f789dbfcfd081b241e2c44e576a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Form::Form</definition>
+        <argsstring>()</argsstring>
+        <name>Form</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="form.h" line="8" column="1" bodyfile="form.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="7">
+        <label>Form</label>
+        <link refid="class_form"/>
+      </node>
+    </collaborationgraph>
+    <location file="form.h" line="6" column="1" bodyfile="form.h" bodystart="5" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_form_1a74d41f789dbfcfd081b241e2c44e576a" prot="public" virt="non-virtual"><scope>Form</scope><name>Form</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

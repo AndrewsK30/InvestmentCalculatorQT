@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_state" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>State</compoundname>
+    <derivedcompoundref refid="class_state_four" prot="public" virt="non-virtual">StateFour</derivedcompoundref>
+    <derivedcompoundref refid="class_state_one" prot="public" virt="non-virtual">StateOne</derivedcompoundref>
+    <derivedcompoundref refid="class_state_three" prot="public" virt="non-virtual">StateThree</derivedcompoundref>
+    <derivedcompoundref refid="class_state_two" prot="public" virt="non-virtual">StateTwo</derivedcompoundref>
+    <includes refid="state_8h" local="no">state.h</includes>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_state_1ab91bb1dd5aa6260ab2a456581daf9ec2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>State::State</definition>
+        <argsstring>()</argsstring>
+        <name>State</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="state.h" line="11" column="1" bodyfile="state.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_state_1a83742a76f279ed90fec9dd662c10e3b5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void State::constructFromState</definition>
+        <argsstring>(QObject *form)=0</argsstring>
+        <name>constructFromState</name>
+        <reimplementedby refid="class_state_four_1a06d81d6438922f4203ce085898191b2b">constructFromState</reimplementedby>
+        <reimplementedby refid="class_state_one_1a6d38f216e2b916a89481c23efdee3811">constructFromState</reimplementedby>
+        <reimplementedby refid="class_state_two_1a6608b7b7cbed0f45c47a7af375396799">constructFromState</reimplementedby>
+        <reimplementedby refid="class_state_three_1a629420abe5485db5fc7793d80494353e">constructFromState</reimplementedby>
+        <param>
+          <type>QObject *</type>
+          <declname>form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="state.h" line="32" column="1"/>
+        <referencedby refid="class_state_1aa4ddeb49e1ff1207ce99331f13db53ff" compoundref="state_8h" startline="27" endline="29">construct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_state_1ac1ce8d14817ed7e73fe6c9cb52138059" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void State::getInformationAndSaveState</definition>
+        <argsstring>(QObject *form)=0</argsstring>
+        <name>getInformationAndSaveState</name>
+        <reimplementedby refid="class_state_four_1aeb4ce6b44845086017a4a13a0ad77a48">getInformationAndSaveState</reimplementedby>
+        <reimplementedby refid="class_state_one_1a870ce1d49f625fbd1529c86defbf2e07">getInformationAndSaveState</reimplementedby>
+        <reimplementedby refid="class_state_two_1a62c5661f759757f383d773e7a7a7913f">getInformationAndSaveState</reimplementedby>
+        <reimplementedby refid="class_state_three_1aaf234d75e1a6ac12d0be2f019b5e7961">getInformationAndSaveState</reimplementedby>
+        <param>
+          <type>QObject *</type>
+          <declname>form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="state.h" line="33" column="1"/>
+        <referencedby refid="class_state_1adc3efce8b999ab26f4584d316f6b177b" compoundref="state_8h" startline="14" endline="25">canGoNextState</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_state_1a24c0c03b0e0ae455f6fa4147c0a9b50c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool State::infoIsValid</definition>
+        <argsstring>()=0</argsstring>
+        <name>infoIsValid</name>
+        <reimplementedby refid="class_state_four_1a3cf88c30e9689ffa74dc469d80a3e58b">infoIsValid</reimplementedby>
+        <reimplementedby refid="class_state_one_1a33dda78841241936108ad704440d475d">infoIsValid</reimplementedby>
+        <reimplementedby refid="class_state_two_1abf8e3da47afddb27b449104a74cce1a9">infoIsValid</reimplementedby>
+        <reimplementedby refid="class_state_three_1a20a7f1cbd330213845d43106abbb0e94">infoIsValid</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="state.h" line="34" column="1"/>
+        <referencedby refid="class_state_1adc3efce8b999ab26f4584d316f6b177b" compoundref="state_8h" startline="14" endline="25">canGoNextState</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_state_1a7c2060b170abf8d929d14ef257a7dd79" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void State::displayErroMsg</definition>
+        <argsstring>()=0</argsstring>
+        <name>displayErroMsg</name>
+        <reimplementedby refid="class_state_four_1ab0f22576b70ab82cc2aa46ff1677900d">displayErroMsg</reimplementedby>
+        <reimplementedby refid="class_state_one_1a45707aa6a03ff83ccb04ef9d0034537d">displayErroMsg</reimplementedby>
+        <reimplementedby refid="class_state_two_1adcd1b0b03bc3cedeefca4f3fa98916b9">displayErroMsg</reimplementedby>
+        <reimplementedby refid="class_state_three_1acf601c9a74969865e09dc49ee496050e">displayErroMsg</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="state.h" line="35" column="1"/>
+        <referencedby refid="class_state_1adc3efce8b999ab26f4584d316f6b177b" compoundref="state_8h" startline="14" endline="25">canGoNextState</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_state_1a38b841d6fc5f6b26d6e5a7d1efdf4524" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void State::saveInContext</definition>
+        <argsstring>()</argsstring>
+        <name>saveInContext</name>
+        <reimplementedby refid="class_state_one_1a816d42e9b1245e1caa7af05ca3efdc90">saveInContext</reimplementedby>
+        <reimplementedby refid="class_state_two_1a57a1488b99190fa28ef4a728a2c72911">saveInContext</reimplementedby>
+        <reimplementedby refid="class_state_three_1a2045f458debc5bfe040a56e7d5a86f28">saveInContext</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="state.h" line="36" column="1" bodyfile="state.h" bodystart="36" bodyend="36"/>
+        <referencedby refid="class_state_1adc3efce8b999ab26f4584d316f6b177b" compoundref="state_8h" startline="14" endline="25">canGoNextState</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_state_1adc3efce8b999ab26f4584d316f6b177b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool State::canGoNextState</definition>
+        <argsstring>(QObject *form)</argsstring>
+        <name>canGoNextState</name>
+        <param>
+          <type>QObject *</type>
+          <declname>form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="state.h" line="14" column="1" bodyfile="state.h" bodystart="14" bodyend="25"/>
+        <references refid="class_state_1ac1ce8d14817ed7e73fe6c9cb52138059">getInformationAndSaveState</references>
+        <references refid="class_state_1a24c0c03b0e0ae455f6fa4147c0a9b50c">infoIsValid</references>
+        <references refid="class_state_1a7c2060b170abf8d929d14ef257a7dd79">displayErroMsg</references>
+        <references refid="class_state_1a38b841d6fc5f6b26d6e5a7d1efdf4524" compoundref="state_8h" startline="36" endline="36">saveInContext</references>
+      </memberdef>
+      <memberdef kind="function" id="class_state_1aa4ddeb49e1ff1207ce99331f13db53ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void State::construct</definition>
+        <argsstring>(QObject *form)</argsstring>
+        <name>construct</name>
+        <param>
+          <type>QObject *</type>
+          <declname>form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="state.h" line="27" column="1" bodyfile="state.h" bodystart="27" bodyend="29"/>
+        <references refid="class_state_1a83742a76f279ed90fec9dd662c10e3b5">constructFromState</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>StateThree</label>
+        <link refid="class_state_three"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>StateOne</label>
+        <link refid="class_state_one"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>StateFour</label>
+        <link refid="class_state_four"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>StateTwo</label>
+        <link refid="class_state_two"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>State</label>
+        <link refid="class_state"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>State</label>
+        <link refid="class_state"/>
+      </node>
+    </collaborationgraph>
+    <location file="state.h" line="9" column="1" bodyfile="state.h" bodystart="8" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_state_1adc3efce8b999ab26f4584d316f6b177b" prot="public" virt="non-virtual"><scope>State</scope><name>canGoNextState</name></member>
+      <member refid="class_state_1aa4ddeb49e1ff1207ce99331f13db53ff" prot="public" virt="non-virtual"><scope>State</scope><name>construct</name></member>
+      <member refid="class_state_1a83742a76f279ed90fec9dd662c10e3b5" prot="protected" virt="pure-virtual"><scope>State</scope><name>constructFromState</name></member>
+      <member refid="class_state_1a7c2060b170abf8d929d14ef257a7dd79" prot="protected" virt="pure-virtual"><scope>State</scope><name>displayErroMsg</name></member>
+      <member refid="class_state_1ac1ce8d14817ed7e73fe6c9cb52138059" prot="protected" virt="pure-virtual"><scope>State</scope><name>getInformationAndSaveState</name></member>
+      <member refid="class_state_1a24c0c03b0e0ae455f6fa4147c0a9b50c" prot="protected" virt="pure-virtual"><scope>State</scope><name>infoIsValid</name></member>
+      <member refid="class_state_1a38b841d6fc5f6b26d6e5a7d1efdf4524" prot="protected" virt="virtual"><scope>State</scope><name>saveInContext</name></member>
+      <member refid="class_state_1ab91bb1dd5aa6260ab2a456581daf9ec2" prot="protected" virt="non-virtual"><scope>State</scope><name>State</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

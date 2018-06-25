@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="stateone_8h" kind="file" language="C++">
+    <compoundname>stateone.h</compoundname>
+    <includes refid="state_8h" local="yes">state.h</includes>
+    <includes local="no">QObject</includes>
+    <includedby refid="mainwindow_8cpp" local="yes">mainwindow.cpp</includedby>
+    <includedby refid="statefactory_8cpp" local="yes">statefactory.cpp</includedby>
+    <includedby refid="stateone_8cpp" local="yes">stateone.cpp</includedby>
+    <incdepgraph>
+      <node id="295">
+        <label>QObject</label>
+      </node>
+      <node id="294">
+        <label>state.h</label>
+        <link refid="state_8h"/>
+        <childnode refid="295" relation="include">
+        </childnode>
+      </node>
+      <node id="293">
+        <label>stateone.h</label>
+        <link refid="stateone_8h"/>
+        <childnode refid="294" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="298">
+        <label>statefactory.cpp</label>
+        <link refid="statefactory_8cpp"/>
+      </node>
+      <node id="299">
+        <label>stateone.cpp</label>
+        <link refid="stateone_8cpp"/>
+      </node>
+      <node id="297">
+        <label>mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="296">
+        <label>stateone.h</label>
+        <link refid="stateone_8h"/>
+        <childnode refid="297" relation="include">
+        </childnode>
+        <childnode refid="298" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_state_one" prot="public">StateOne</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="stateone_8h_1a5a0621aea0057c1dbd602932b90acf61" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString TEXT_EDIT_NUM_PARCELAS</definition>
+        <argsstring></argsstring>
+        <name>TEXT_EDIT_NUM_PARCELAS</name>
+        <initializer>= &quot;textEditNumParcelas&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stateone.h" line="8" column="1" bodyfile="stateone.h" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_state_one_1a6d38f216e2b916a89481c23efdee3811" compoundref="stateone_8cpp" startline="16" endline="44">StateOne::constructFromState</referencedby>
+        <referencedby refid="class_state_one_1a870ce1d49f625fbd1529c86defbf2e07" compoundref="stateone_8cpp" startline="46" endline="50">StateOne::getInformationAndSaveState</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="stateone_8h_1a19ab0fb850c852a0b6597b66c622c616" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString TEXT_EDIT_VALOR_A_VISTA</definition>
+        <argsstring></argsstring>
+        <name>TEXT_EDIT_VALOR_A_VISTA</name>
+        <initializer>= &quot;textEditValorAhVista&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stateone.h" line="9" column="1" bodyfile="stateone.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="stateone_8h_1a4e2398fdabb231a0c863feed0613d90d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString TEXT_EDIT_VALOR_DA_PARCELA</definition>
+        <argsstring></argsstring>
+        <name>TEXT_EDIT_VALOR_DA_PARCELA</name>
+        <initializer>= &quot;textEditValorDaParcela&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stateone.h" line="10" column="1" bodyfile="stateone.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_state_one_1a6d38f216e2b916a89481c23efdee3811" compoundref="stateone_8cpp" startline="16" endline="44">StateOne::constructFromState</referencedby>
+        <referencedby refid="class_state_one_1a870ce1d49f625fbd1529c86defbf2e07" compoundref="stateone_8cpp" startline="46" endline="50">StateOne::getInformationAndSaveState</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>STATEONE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STATEONE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="state_8h" kindref="compound">state.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="stateone_8h_1a5a0621aea0057c1dbd602932b90acf61" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="stateone_8h_1a5a0621aea0057c1dbd602932b90acf61" kindref="member">TEXT_EDIT_NUM_PARCELAS</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;textEditNumParcelas&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9" refid="stateone_8h_1a19ab0fb850c852a0b6597b66c622c616" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="stateone_8h_1a19ab0fb850c852a0b6597b66c622c616" kindref="member">TEXT_EDIT_VALOR_A_VISTA</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;textEditValorAhVista&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="stateone_8h_1a4e2398fdabb231a0c863feed0613d90d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="stateone_8h_1a4e2398fdabb231a0c863feed0613d90d" kindref="member">TEXT_EDIT_VALOR_DA_PARCELA</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;textEditValorDaParcela&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_state_one" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_state_one" kindref="compound">StateOne</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_state" kindref="compound">State</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15" refid="class_state_one_1a793b3744d87b3db23284ed0c6b9b0999" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_state_one_1a793b3744d87b3db23284ed0c6b9b0999" kindref="member">valorDaParcela</ref><sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="16" refid="class_state_one_1abcbba981d20a526adf8a7a8ba2cf2005" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_state_one_1abcbba981d20a526adf8a7a8ba2cf2005" kindref="member">numDeVezes</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_state_one_1a0f346f6da69e65c51b5dd70d6a353cf6" kindref="member">StateOne</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_one_1a6d38f216e2b916a89481c23efdee3811" kindref="member">constructFromState</ref>(QObject<sp/>*form);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_one_1a870ce1d49f625fbd1529c86defbf2e07" kindref="member">getInformationAndSaveState</ref>(QObject<sp/>*form);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_state_one_1a33dda78841241936108ad704440d475d" kindref="member">infoIsValid</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_one_1a45707aa6a03ff83ccb04ef9d0034537d" kindref="member">displayErroMsg</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>State<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_one_1a816d42e9b1245e1caa7af05ca3efdc90" kindref="member">saveInContext</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>STATEONE_H</highlight></codeline>
+    </programlisting>
+    <location file="stateone.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="statecontext_8cpp" kind="file" language="C++">
+    <compoundname>statecontext.cpp</compoundname>
+    <includes refid="statecontext_8h" local="yes">statecontext.h</includes>
+    <incdepgraph>
+      <node id="237">
+        <label>statecontext.cpp</label>
+        <link refid="statecontext_8cpp"/>
+        <childnode refid="238" relation="include">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>statecontext.h</label>
+        <link refid="statecontext_8h"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="statecontext_8h" kindref="compound">statecontext.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_state_context_1a08534a7b5cf81cc742256c9e69199356" refkind="member"><highlight class="normal"><ref refid="class_state_context_1a08534a7b5cf81cc742256c9e69199356" kindref="member">StateContext::StateContext</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="statecontext.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="poupanca_8cpp" kind="file" language="C++">
+    <compoundname>poupanca.cpp</compoundname>
+    <includes refid="poupanca_8h" local="yes">poupanca.h</includes>
+    <incdepgraph>
+      <node id="180">
+        <label>QObject</label>
+      </node>
+      <node id="179">
+        <label>poupanca.h</label>
+        <link refid="poupanca_8h"/>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>QDate</label>
+      </node>
+      <node id="181">
+        <label>investimento.h</label>
+        <link refid="investimento_8h"/>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>poupanca.cpp</label>
+        <link refid="poupanca_8cpp"/>
+        <childnode refid="179" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="poupanca_8h" kindref="compound">poupanca.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_poupanca_1a3529fa78f9d5d8249aae08a26cb88ec4" refkind="member"><highlight class="normal"><ref refid="class_poupanca_1a3529fa78f9d5d8249aae08a26cb88ec4" kindref="member">Poupanca::Poupanca</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rAnual,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vInvestido,<sp/>QDate*<sp/>dtRetorno)<sp/>:<sp/><ref refid="class_investimento" kindref="compound">Investimento</ref>(rAnual,<sp/>vInvestido,<sp/>dtRetorno)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_poupanca_1aa285da086340cf02f1dd5fda6a218a53" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_poupanca_1aa285da086340cf02f1dd5fda6a218a53" kindref="member">Poupanca::deduzirImposto</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorFinalSemImposto,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorRendido)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>valorFinalSemImposto;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="poupanca.cpp"/>
+  </compounddef>
+</doxygen>

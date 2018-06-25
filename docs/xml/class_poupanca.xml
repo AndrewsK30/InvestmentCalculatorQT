@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_poupanca" kind="class" language="C++" prot="public">
+    <compoundname>Poupanca</compoundname>
+    <basecompoundref refid="class_investimento" prot="public" virt="non-virtual">Investimento</basecompoundref>
+    <includes refid="poupanca_8h" local="no">poupanca.h</includes>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_poupanca_1aa285da086340cf02f1dd5fda6a218a53" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double Poupanca::deduzirImposto</definition>
+        <argsstring>(double valorFinalSemImposto, double valorRendido)</argsstring>
+        <name>deduzirImposto</name>
+        <reimplements refid="class_investimento_1a082ac800ef52d7b6a6facb3f69bf8a3a">deduzirImposto</reimplements>
+        <param>
+          <type>double</type>
+          <declname>valorFinalSemImposto</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>valorRendido</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="poupanca.h" line="12" column="1" bodyfile="poupanca.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_poupanca_1a3529fa78f9d5d8249aae08a26cb88ec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Poupanca::Poupanca</definition>
+        <argsstring>(double rAnual, double vInvestido, QDate *dtRetorno)</argsstring>
+        <name>Poupanca</name>
+        <param>
+          <type>double</type>
+          <declname>rAnual</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>vInvestido</declname>
+        </param>
+        <param>
+          <type>QDate *</type>
+          <declname>dtRetorno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="poupanca.h" line="15" column="1" bodyfile="poupanca.cpp" bodystart="3" bodyend="4"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="28">
+        <label>QObject</label>
+      </node>
+      <node id="27">
+        <label>Investimento</label>
+        <link refid="class_investimento"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Poupanca</label>
+        <link refid="class_poupanca"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>QObject</label>
+      </node>
+      <node id="30">
+        <label>Investimento</label>
+        <link refid="class_investimento"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>Poupanca</label>
+        <link refid="class_poupanca"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="poupanca.h" line="10" column="1" bodyfile="poupanca.h" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_investimento_1a5bc808f2a784def7d3361ce3c74ff366" prot="public" virt="non-virtual"><scope>Poupanca</scope><name>calcular</name></member>
+      <member refid="class_poupanca_1aa285da086340cf02f1dd5fda6a218a53" prot="protected" virt="virtual"><scope>Poupanca</scope><name>deduzirImposto</name></member>
+      <member refid="class_investimento_1ac294d5312c077eccfa73e63fbdb3853e" prot="public" virt="non-virtual"><scope>Poupanca</scope><name>getDataRetorno</name></member>
+      <member refid="class_investimento_1a3e8d87b509b93e84b90364a6ed11df1a" prot="public" virt="non-virtual"><scope>Poupanca</scope><name>getRendimentoAnual</name></member>
+      <member refid="class_investimento_1adaec8da4168bb06120e3115d386b60f4" prot="public" virt="non-virtual"><scope>Poupanca</scope><name>getValorInvestido</name></member>
+      <member refid="class_investimento_1a753b2d9ce733291af14da400f3cf7004" prot="public" virt="non-virtual"><scope>Poupanca</scope><name>Investimento</name></member>
+      <member refid="class_poupanca_1a3529fa78f9d5d8249aae08a26cb88ec4" prot="public" virt="non-virtual"><scope>Poupanca</scope><name>Poupanca</name></member>
+      <member refid="class_investimento_1a2cbdce10b5c9cbaa9f9300c61ac4dee1" prot="public" virt="non-virtual"><scope>Poupanca</scope><name>setDataRetorno</name></member>
+      <member refid="class_investimento_1af281c444e8919fa9e6b886839e82a121" prot="public" virt="non-virtual"><scope>Poupanca</scope><name>setRendimentoAnual</name></member>
+      <member refid="class_investimento_1af2e4c34d7bc868d2746ca29aa92ddf75" prot="public" virt="non-virtual"><scope>Poupanca</scope><name>setValorInvestido</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

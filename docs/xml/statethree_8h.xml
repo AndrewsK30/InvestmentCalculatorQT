@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="statethree_8h" kind="file" language="C++">
+    <compoundname>statethree.h</compoundname>
+    <includes refid="state_8h" local="yes">state.h</includes>
+    <includes local="no">QDate</includes>
+    <includedby refid="statefactory_8cpp" local="yes">statefactory.cpp</includedby>
+    <includedby refid="statethree_8cpp" local="yes">statethree.cpp</includedby>
+    <incdepgraph>
+      <node id="316">
+        <label>QObject</label>
+      </node>
+      <node id="314">
+        <label>statethree.h</label>
+        <link refid="statethree_8h"/>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+      </node>
+      <node id="315">
+        <label>state.h</label>
+        <link refid="state_8h"/>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>QDate</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="319">
+        <label>statefactory.cpp</label>
+        <link refid="statefactory_8cpp"/>
+      </node>
+      <node id="318">
+        <label>statethree.h</label>
+        <link refid="statethree_8h"/>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="320" relation="include">
+        </childnode>
+      </node>
+      <node id="320">
+        <label>statethree.cpp</label>
+        <link refid="statethree_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_state_three" prot="public">StateThree</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="statethree_8h_1a5f9e3d212907aaf43fae456477abf81f" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString TEXT_EDIT_RENDA_ANUAL</definition>
+        <argsstring></argsstring>
+        <name>TEXT_EDIT_RENDA_ANUAL</name>
+        <initializer>= &quot;textEditRendaAnual&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="10" column="1" bodyfile="statethree.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_state_three_1a629420abe5485db5fc7793d80494353e" compoundref="statethree_8cpp" startline="17" endline="55">StateThree::constructFromState</referencedby>
+        <referencedby refid="class_state_three_1aaf234d75e1a6ac12d0be2f019b5e7961" compoundref="statethree_8cpp" startline="57" endline="62">StateThree::getInformationAndSaveState</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="statethree_8h_1a263d74f338148a71b57b7c1e7f2db146" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString TEXT_EDIT_VALOR_INVESTIMENTO</definition>
+        <argsstring></argsstring>
+        <name>TEXT_EDIT_VALOR_INVESTIMENTO</name>
+        <initializer>= &quot;textEditValorInvestimento&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="11" column="1" bodyfile="statethree.h" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_state_three_1a629420abe5485db5fc7793d80494353e" compoundref="statethree_8cpp" startline="17" endline="55">StateThree::constructFromState</referencedby>
+        <referencedby refid="class_state_three_1aaf234d75e1a6ac12d0be2f019b5e7961" compoundref="statethree_8cpp" startline="57" endline="62">StateThree::getInformationAndSaveState</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="statethree_8h_1aefde4966ca52a4121c82d36d84271fc5" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString TEXT_EDIT_DATA_FINAL_FINANCIAMENTO</definition>
+        <argsstring></argsstring>
+        <name>TEXT_EDIT_DATA_FINAL_FINANCIAMENTO</name>
+        <initializer>= &quot;textEditDataFinalFinanciamento&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="12" column="1" bodyfile="statethree.h" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_state_three_1a629420abe5485db5fc7793d80494353e" compoundref="statethree_8cpp" startline="17" endline="55">StateThree::constructFromState</referencedby>
+        <referencedby refid="class_state_three_1aaf234d75e1a6ac12d0be2f019b5e7961" compoundref="statethree_8cpp" startline="57" endline="62">StateThree::getInformationAndSaveState</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="statethree_8h_1a4bfa7eb4275cb482d55a08d76119b70a" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString DATE_STRING_FORMAT</definition>
+        <argsstring></argsstring>
+        <name>DATE_STRING_FORMAT</name>
+        <initializer>= &quot;dd/MM/yyyy&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="13" column="1" bodyfile="statethree.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_state_three_1a4658d76ab166f6b2fd55af19d5b82759" compoundref="statethree_8cpp" startline="11" endline="15">StateThree::StateThree</referencedby>
+        <referencedby refid="class_state_three_1a2045f458debc5bfe040a56e7d5a86f28" compoundref="statethree_8cpp" startline="74" endline="85">StateThree::saveInContext</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>STATETHREE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STATETHREE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="state_8h" kindref="compound">state.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDate&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="statethree_8h_1a5f9e3d212907aaf43fae456477abf81f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="statethree_8h_1a5f9e3d212907aaf43fae456477abf81f" kindref="member">TEXT_EDIT_RENDA_ANUAL</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;textEditRendaAnual&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="statethree_8h_1a263d74f338148a71b57b7c1e7f2db146" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="statethree_8h_1a263d74f338148a71b57b7c1e7f2db146" kindref="member">TEXT_EDIT_VALOR_INVESTIMENTO</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;textEditValorInvestimento&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12" refid="statethree_8h_1aefde4966ca52a4121c82d36d84271fc5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="statethree_8h_1aefde4966ca52a4121c82d36d84271fc5" kindref="member">TEXT_EDIT_DATA_FINAL_FINANCIAMENTO</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;textEditDataFinalFinanciamento&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13" refid="statethree_8h_1a4bfa7eb4275cb482d55a08d76119b70a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="statethree_8h_1a4bfa7eb4275cb482d55a08d76119b70a" kindref="member">DATE_STRING_FORMAT</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;dd/MM/yyyy&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_state_three" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_state_three" kindref="compound">StateThree</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_state" kindref="compound">State</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rendaAnual<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorInvestimento<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>dataFinalFinanciamento;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_state_three_1a4658d76ab166f6b2fd55af19d5b82759" kindref="member">StateThree</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>State<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_three_1a629420abe5485db5fc7793d80494353e" kindref="member">constructFromState</ref>(QObject<sp/>*form);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_three_1aaf234d75e1a6ac12d0be2f019b5e7961" kindref="member">getInformationAndSaveState</ref>(QObject<sp/>*form);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_state_three_1a20a7f1cbd330213845d43106abbb0e94" kindref="member">infoIsValid</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_three_1acf601c9a74969865e09dc49ee496050e" kindref="member">displayErroMsg</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>State<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_three_1a2045f458debc5bfe040a56e7d5a86f28" kindref="member">saveInContext</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>STATETHREE_H</highlight></codeline>
+    </programlisting>
+    <location file="statethree.h"/>
+  </compounddef>
+</doxygen>

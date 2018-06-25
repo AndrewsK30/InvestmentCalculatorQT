@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="investmenttypes_8h" kind="file" language="C++">
+    <compoundname>investmenttypes.h</compoundname>
+    <includedby refid="investmentfactory_8h" local="yes">investmentfactory.h</includedby>
+    <includedby refid="statetwo_8h" local="yes">statetwo.h</includedby>
+    <invincdepgraph>
+      <node id="105">
+        <label>investmentfactory.h</label>
+        <link refid="investmentfactory_8h"/>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>statefactory.cpp</label>
+        <link refid="statefactory_8cpp"/>
+      </node>
+      <node id="106">
+        <label>investmentfactory.cpp</label>
+        <link refid="investmentfactory_8cpp"/>
+      </node>
+      <node id="107">
+        <label>statethree.cpp</label>
+        <link refid="statethree_8cpp"/>
+      </node>
+      <node id="110">
+        <label>statetwo.cpp</label>
+        <link refid="statetwo_8cpp"/>
+      </node>
+      <node id="108">
+        <label>statetwo.h</label>
+        <link refid="statetwo_8h"/>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>investmenttypes.h</label>
+        <link refid="investmenttypes_8h"/>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="investmenttypes_8h_1aaf316bdf163e377c3189564de295edbd" prot="public" static="yes" mutable="no">
+        <type>const QString</type>
+        <definition>const QString TESOURO_SELIC</definition>
+        <argsstring></argsstring>
+        <name>TESOURO_SELIC</name>
+        <initializer>= &quot;TESOURO SELIC&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmenttypes.h" line="3" column="1" bodyfile="investmenttypes.h" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="investmenttypes_8h_1a6597100998a565f92a02a5f0a655eb5e" prot="public" static="yes" mutable="no">
+        <type>const QString</type>
+        <definition>const QString POUPANCA</definition>
+        <argsstring></argsstring>
+        <name>POUPANCA</name>
+        <initializer>= &quot;POUPANÇA&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmenttypes.h" line="4" column="1" bodyfile="investmenttypes.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>INVESTMENTTYPES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INVESTMENTTYPES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QString<sp/>TESOURO_SELIC<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;TESOURO<sp/>SELIC&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QString<sp/>POUPANCA<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;POUPANÇA&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>INVESTMENTTYPES_H</highlight></codeline>
+    </programlisting>
+    <location file="investmenttypes.h"/>
+  </compounddef>
+</doxygen>

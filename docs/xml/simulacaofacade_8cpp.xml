@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="simulacaofacade_8cpp" kind="file" language="C++">
+    <compoundname>simulacaofacade.cpp</compoundname>
+    <includes refid="simulacaofacade_8h" local="yes">simulacaofacade.h</includes>
+    <incdepgraph>
+      <node id="195">
+        <label>QObject</label>
+      </node>
+      <node id="194">
+        <label>simulacaofacade.h</label>
+        <link refid="simulacaofacade_8h"/>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="197">
+        <label>financiamento.h</label>
+        <link refid="financiamento_8h"/>
+        <childnode refid="195" relation="include">
+        </childnode>
+      </node>
+      <node id="193">
+        <label>simulacaofacade.cpp</label>
+        <link refid="simulacaofacade_8cpp"/>
+        <childnode refid="194" relation="include">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>QDate</label>
+      </node>
+      <node id="196">
+        <label>QString</label>
+      </node>
+      <node id="198">
+        <label>investimento.h</label>
+        <link refid="investimento_8h"/>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="simulacaofacade_8h" kindref="compound">simulacaofacade.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_simulacao_facade_1a8e7d6f1cb4b71baa0d37d27a6f642a41" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_simulacao_facade_1a8e7d6f1cb4b71baa0d37d27a6f642a41" kindref="member">SimulacaoFacade::compararInvestimentoEFinanciamento</ref>(<ref refid="class_investimento" kindref="compound">Investimento</ref><sp/>*investimento,<sp/><ref refid="class_financiamento" kindref="compound">Financiamento</ref><sp/>*financiamento)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorFinanciado<sp/>=<sp/>financiamento-&gt;<ref refid="class_financiamento_1a9d8fbce5220a3702c5eb0fdb612dea68" kindref="member">getValorTotalFinanciado</ref>();</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorFinalInvestimento<sp/>=<sp/>investimento-&gt;<ref refid="class_investimento_1a5bc808f2a784def7d3361ce3c74ff366" kindref="member">calcular</ref>();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>mensagem;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(valorFinanciado&lt;=<sp/>valorFinalInvestimento)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mensagem<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;É<sp/>mais<sp/>vantajoso<sp/>comprar<sp/>financiado.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mensagem<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;É<sp/>mais<sp/>vantajoso<sp/>comprar<sp/>à<sp/>vista.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>mensagem<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;\nValor<sp/>final<sp/>financiado:<sp/>R$&quot;</highlight><highlight class="normal"><sp/>+<sp/>QString::number(valorFinanciado);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>mensagem<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;\nValor<sp/>final<sp/>investimento<sp/>no<sp/>mesmo<sp/>período:<sp/>R$&quot;</highlight><highlight class="normal"><sp/>+<sp/>QString::number(valorFinalInvestimento);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mensagem;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="simulacaofacade.cpp"/>
+  </compounddef>
+</doxygen>

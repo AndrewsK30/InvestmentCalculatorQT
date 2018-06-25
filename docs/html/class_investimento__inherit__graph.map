@@ -1,0 +1,4 @@
+<map id="Investimento" name="Investimento">
+<area shape="rect" id="node3" href="$class_poupanca.html" title="{Poupanca\n||+ Poupanca()\l# deduzirImposto()\l}" alt="" coords="5,341,138,428"/>
+<area shape="rect" id="node4" href="$class_tesouro_selic.html" title="{TesouroSelic\n||+ TesouroSelic()\l# deduzirImposto()\l}" alt="" coords="161,341,294,428"/>
+</map>

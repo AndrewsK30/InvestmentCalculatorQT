@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_care_taker" kind="class"><name>CareTaker</name>
+    <member refid="class_care_taker_1a182282b127a8d1a59e5caf3ff4e6bb27" kind="variable"><name>mementoList</name></member>
+    <member refid="class_care_taker_1adca80c6eff9968b8fed0414c749a5288" kind="function"><name>CareTaker</name></member>
+    <member refid="class_care_taker_1a936c25815b40aa32e21a98a9ce44a96c" kind="function"><name>add</name></member>
+    <member refid="class_care_taker_1acf06713ee4543c3d1119b66c3a29024b" kind="function"><name>undo</name></member>
+  </compound>
+  <compound refid="class_financiamento" kind="class"><name>Financiamento</name>
+    <member refid="class_financiamento_1a3518bbda6c7c19aa617e7c6d437f811f" kind="variable"><name>numeroVezes</name></member>
+    <member refid="class_financiamento_1a7d4dffa73c8840350cececcfe6905fa6" kind="variable"><name>valorParcela</name></member>
+    <member refid="class_financiamento_1a8aa6c64118c23e6fc332306ed4409bda" kind="variable"><name>valorTotalFinanciado</name></member>
+    <member refid="class_financiamento_1adfc016aa85f201637210e55f2557ef4b" kind="function"><name>Financiamento</name></member>
+    <member refid="class_financiamento_1a9089a0077784337a1e3368b661b65702" kind="function"><name>getNumeroVezes</name></member>
+    <member refid="class_financiamento_1a277b2fb2ca9f080987ce0854467487f6" kind="function"><name>getValorParcela</name></member>
+    <member refid="class_financiamento_1a9d8fbce5220a3702c5eb0fdb612dea68" kind="function"><name>getValorTotalFinanciado</name></member>
+    <member refid="class_financiamento_1aec7eab4faadc80d706c921aee3d1112e" kind="function"><name>setNumeroVezes</name></member>
+    <member refid="class_financiamento_1a5c779d490e9b752b477383accc396e66" kind="function"><name>setValorParcela</name></member>
+    <member refid="class_financiamento_1a2ca8fe5d8d518731147586b9ab381dfc" kind="function"><name>setValorTotalFinanciado</name></member>
+  </compound>
+  <compound refid="class_form" kind="class"><name>Form</name>
+    <member refid="class_form_1a74d41f789dbfcfd081b241e2c44e576a" kind="function"><name>Form</name></member>
+  </compound>
+  <compound refid="class_investimento" kind="class"><name>Investimento</name>
+    <member refid="class_investimento_1a2ec3ecb3f07b052041690970a707265e" kind="variable"><name>rendimentoAnual</name></member>
+    <member refid="class_investimento_1a291cffa18dbcc30530607df3729a2892" kind="variable"><name>valorInvestido</name></member>
+    <member refid="class_investimento_1a7404f3e8d6af4eac0405024b8c6a7357" kind="variable"><name>dataRetorno</name></member>
+    <member refid="class_investimento_1a2091617cc1c57f09a863a3ce7bb934c6" kind="function"><name>calcularRendimentoMensal</name></member>
+    <member refid="class_investimento_1a3b7941de24a2d92ae2a1a841c2b921c1" kind="function"><name>calcularNumeroMesesInvestimento</name></member>
+    <member refid="class_investimento_1a28b4fd0298b574bacc4447fbf7633bea" kind="function"><name>calcularRetorno</name></member>
+    <member refid="class_investimento_1a99a838c517ab0ab5ec9a3901b8b00ce6" kind="function"><name>calcularValorRendido</name></member>
+    <member refid="class_investimento_1a082ac800ef52d7b6a6facb3f69bf8a3a" kind="function"><name>deduzirImposto</name></member>
+    <member refid="class_investimento_1a753b2d9ce733291af14da400f3cf7004" kind="function"><name>Investimento</name></member>
+    <member refid="class_investimento_1a3e8d87b509b93e84b90364a6ed11df1a" kind="function"><name>getRendimentoAnual</name></member>
+    <member refid="class_investimento_1adaec8da4168bb06120e3115d386b60f4" kind="function"><name>getValorInvestido</name></member>
+    <member refid="class_investimento_1ac294d5312c077eccfa73e63fbdb3853e" kind="function"><name>getDataRetorno</name></member>
+    <member refid="class_investimento_1af281c444e8919fa9e6b886839e82a121" kind="function"><name>setRendimentoAnual</name></member>
+    <member refid="class_investimento_1af2e4c34d7bc868d2746ca29aa92ddf75" kind="function"><name>setValorInvestido</name></member>
+    <member refid="class_investimento_1a2cbdce10b5c9cbaa9f9300c61ac4dee1" kind="function"><name>setDataRetorno</name></member>
+    <member refid="class_investimento_1a5bc808f2a784def7d3361ce3c74ff366" kind="function"><name>calcular</name></member>
+  </compound>
+  <compound refid="class_investment_context" kind="class"><name>InvestmentContext</name>
+    <member refid="class_investment_context_1a20b33878b7e08bdaeaf8bd3051dde27e" kind="variable"><name>investimento</name></member>
+    <member refid="class_investment_context_1a5ee92f0df9b39854ff8bd30c33a25615" kind="variable"><name>financiamento</name></member>
+    <member refid="class_investment_context_1a8bee1308d41e94d66f1e356b5d7f5e1c" kind="variable"><name>investment</name></member>
+    <member refid="class_investment_context_1a698f13769ad51a5b5346bf34854d54e9" kind="variable"><name>instance</name></member>
+    <member refid="class_investment_context_1af32c2cd0790acbcbd6fe5a3635acc325" kind="function"><name>InvestmentContext</name></member>
+    <member refid="class_investment_context_1ab8a4d7250517af915d518478740dab57" kind="function"><name>getInstance</name></member>
+    <member refid="class_investment_context_1aa0f55ff1a27cee2c6c2fb46e78d73bb1" kind="function"><name>getFinanciamento</name></member>
+    <member refid="class_investment_context_1aacff6446f411a056d3b1b62e10f99298" kind="function"><name>setFinanciamento</name></member>
+    <member refid="class_investment_context_1a912c93b7d692ab4c001d37d6ecc543ff" kind="function"><name>getInvestimento</name></member>
+    <member refid="class_investment_context_1a1e7acfbfcdeda62cede130965a95b68a" kind="function"><name>setInvestimento</name></member>
+    <member refid="class_investment_context_1a40659055a8b833128368f16edad07fc1" kind="function"><name>getInvestment</name></member>
+    <member refid="class_investment_context_1abdc5675e11a3fa67a8b09aae1cfccd23" kind="function"><name>setInvestment</name></member>
+  </compound>
+  <compound refid="class_investment_factory" kind="class"><name>InvestmentFactory</name>
+    <member refid="class_investment_factory_1a55a46d135179359d6b1d7a0ef78710fe" kind="function"><name>InvestmentFactory</name></member>
+    <member refid="class_investment_factory_1af7de72d70c49b5005d936d8e691f3a4e" kind="function"><name>getInvestment</name></member>
+  </compound>
+  <compound refid="class_main_window" kind="class"><name>MainWindow</name>
+    <member refid="class_main_window_1a24f9134639eefcdbc26230701ca4707a" kind="variable"><name>originator</name></member>
+    <member refid="class_main_window_1ae55693c365838eb86d63f4e5e15f691f" kind="variable"><name>careTaker</name></member>
+    <member refid="class_main_window_1afe14245005fd1b2aa355c4b09e7dc042" kind="variable"><name>stateNumber</name></member>
+    <member refid="class_main_window_1a35466a70ed47252a0191168126a352a5" kind="variable"><name>ui</name></member>
+    <member refid="class_main_window_1a8b244be8b7b7db1b08de2a2acb9409db" kind="function"><name>MainWindow</name></member>
+    <member refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" kind="function"><name>~MainWindow</name></member>
+    <member refid="class_main_window_1ac5cfd506cc94aa8be3d4dd16146e7554" kind="function"><name>setup</name></member>
+    <member refid="class_main_window_1af5f4d2550d55a52ef4953cb929dd4831" kind="function"><name>contructForm</name></member>
+    <member refid="class_main_window_1a3756acc2da9fdc4d884e1d0053e26ce5" kind="function"><name>goNextState</name></member>
+    <member refid="class_main_window_1ab42a842378ba011897988f29a6d5429c" kind="function"><name>cleanLayout</name></member>
+    <member refid="class_main_window_1a7a4e44b382874f1fce9f5d8e2cb56b36" kind="slot"><name>onNextState</name></member>
+    <member refid="class_main_window_1a946a2e520e492495568346724ec359ec" kind="slot"><name>onPrevState</name></member>
+  </compound>
+  <compound refid="class_memento" kind="class"><name>Memento</name>
+    <member refid="class_memento_1a293920fc8f0a0c8bcd3a48c3f82ed3dc" kind="variable"><name>state</name></member>
+    <member refid="class_memento_1aee7c86623a8b81fda84ffe7d68895eb8" kind="function"><name>Memento</name></member>
+    <member refid="class_memento_1abbdf2924953cc15b11cd6d206490146b" kind="function"><name>getState</name></member>
+  </compound>
+  <compound refid="class_originator" kind="class"><name>Originator</name>
+    <member refid="class_originator_1ad00a11e30e9d74e99ce90e860ad7c86a" kind="variable"><name>state</name></member>
+    <member refid="class_originator_1a8f0760dd0c809ced78a5483f96020220" kind="function"><name>Originator</name></member>
+    <member refid="class_originator_1a5d907aff48e19556932c86b6ba1b43ca" kind="function"><name>getState</name></member>
+    <member refid="class_originator_1a02b0f3e1e057a8e1e9bc904a5b2d73c0" kind="function"><name>setState</name></member>
+    <member refid="class_originator_1a8adaa85e6559767c252f578ee2e51bbe" kind="function"><name>saveStateToMemento</name></member>
+    <member refid="class_originator_1a4656bfe71adbb1ac5cbd2ffbbc5df278" kind="function"><name>getStateFromMemento</name></member>
+  </compound>
+  <compound refid="class_poupanca" kind="class"><name>Poupanca</name>
+    <member refid="class_poupanca_1aa285da086340cf02f1dd5fda6a218a53" kind="function"><name>deduzirImposto</name></member>
+    <member refid="class_poupanca_1a3529fa78f9d5d8249aae08a26cb88ec4" kind="function"><name>Poupanca</name></member>
+  </compound>
+  <compound refid="class_simulacao_facade" kind="class"><name>SimulacaoFacade</name>
+    <member refid="class_simulacao_facade_1a8e7d6f1cb4b71baa0d37d27a6f642a41" kind="function"><name>compararInvestimentoEFinanciamento</name></member>
+  </compound>
+  <compound refid="class_state" kind="class"><name>State</name>
+    <member refid="class_state_1ab91bb1dd5aa6260ab2a456581daf9ec2" kind="function"><name>State</name></member>
+    <member refid="class_state_1a83742a76f279ed90fec9dd662c10e3b5" kind="function"><name>constructFromState</name></member>
+    <member refid="class_state_1ac1ce8d14817ed7e73fe6c9cb52138059" kind="function"><name>getInformationAndSaveState</name></member>
+    <member refid="class_state_1a24c0c03b0e0ae455f6fa4147c0a9b50c" kind="function"><name>infoIsValid</name></member>
+    <member refid="class_state_1a7c2060b170abf8d929d14ef257a7dd79" kind="function"><name>displayErroMsg</name></member>
+    <member refid="class_state_1a38b841d6fc5f6b26d6e5a7d1efdf4524" kind="function"><name>saveInContext</name></member>
+    <member refid="class_state_1adc3efce8b999ab26f4584d316f6b177b" kind="function"><name>canGoNextState</name></member>
+    <member refid="class_state_1aa4ddeb49e1ff1207ce99331f13db53ff" kind="function"><name>construct</name></member>
+  </compound>
+  <compound refid="class_state_context" kind="class"><name>StateContext</name>
+    <member refid="class_state_context_1a08534a7b5cf81cc742256c9e69199356" kind="function"><name>StateContext</name></member>
+  </compound>
+  <compound refid="class_state_factory" kind="class"><name>StateFactory</name>
+    <member refid="class_state_factory_1aec1f9e7ec8a2f0d92b9ad25dba3883d4" kind="function"><name>StateFactory</name></member>
+    <member refid="class_state_factory_1ab79f4daaf488584099a91065eafa4a10" kind="function"><name>getState</name></member>
+  </compound>
+  <compound refid="class_state_four" kind="class"><name>StateFour</name>
+    <member refid="class_state_four_1a461f2a75c56b044114fa662226fd15ed" kind="function"><name>StateFour</name></member>
+    <member refid="class_state_four_1a06d81d6438922f4203ce085898191b2b" kind="function"><name>constructFromState</name></member>
+    <member refid="class_state_four_1aeb4ce6b44845086017a4a13a0ad77a48" kind="function"><name>getInformationAndSaveState</name></member>
+    <member refid="class_state_four_1a3cf88c30e9689ffa74dc469d80a3e58b" kind="function"><name>infoIsValid</name></member>
+    <member refid="class_state_four_1ab0f22576b70ab82cc2aa46ff1677900d" kind="function"><name>displayErroMsg</name></member>
+  </compound>
+  <compound refid="class_state_one" kind="class"><name>StateOne</name>
+    <member refid="class_state_one_1a793b3744d87b3db23284ed0c6b9b0999" kind="variable"><name>valorDaParcela</name></member>
+    <member refid="class_state_one_1abcbba981d20a526adf8a7a8ba2cf2005" kind="variable"><name>numDeVezes</name></member>
+    <member refid="class_state_one_1a0f346f6da69e65c51b5dd70d6a353cf6" kind="function"><name>StateOne</name></member>
+    <member refid="class_state_one_1a6d38f216e2b916a89481c23efdee3811" kind="function"><name>constructFromState</name></member>
+    <member refid="class_state_one_1a870ce1d49f625fbd1529c86defbf2e07" kind="function"><name>getInformationAndSaveState</name></member>
+    <member refid="class_state_one_1a33dda78841241936108ad704440d475d" kind="function"><name>infoIsValid</name></member>
+    <member refid="class_state_one_1a45707aa6a03ff83ccb04ef9d0034537d" kind="function"><name>displayErroMsg</name></member>
+    <member refid="class_state_one_1a816d42e9b1245e1caa7af05ca3efdc90" kind="function"><name>saveInContext</name></member>
+  </compound>
+  <compound refid="class_state_three" kind="class"><name>StateThree</name>
+    <member refid="class_state_three_1a8070001d537d960aeba17f9c5c6354b7" kind="variable"><name>rendaAnual</name></member>
+    <member refid="class_state_three_1af8b1d9b3e7af5a5be64c4cc6ceeeb5fa" kind="variable"><name>valorInvestimento</name></member>
+    <member refid="class_state_three_1ab85505f0a61279430fb96a66b5794dab" kind="variable"><name>dataFinalFinanciamento</name></member>
+    <member refid="class_state_three_1a4658d76ab166f6b2fd55af19d5b82759" kind="function"><name>StateThree</name></member>
+    <member refid="class_state_three_1a629420abe5485db5fc7793d80494353e" kind="function"><name>constructFromState</name></member>
+    <member refid="class_state_three_1aaf234d75e1a6ac12d0be2f019b5e7961" kind="function"><name>getInformationAndSaveState</name></member>
+    <member refid="class_state_three_1a20a7f1cbd330213845d43106abbb0e94" kind="function"><name>infoIsValid</name></member>
+    <member refid="class_state_three_1acf601c9a74969865e09dc49ee496050e" kind="function"><name>displayErroMsg</name></member>
+    <member refid="class_state_three_1a2045f458debc5bfe040a56e7d5a86f28" kind="function"><name>saveInContext</name></member>
+  </compound>
+  <compound refid="class_state_two" kind="class"><name>StateTwo</name>
+    <member refid="class_state_two_1a1ea0bb99a6b5ab398a86d81a4ab8cf6a" kind="variable"><name>choosedInvesment</name></member>
+    <member refid="class_state_two_1af76176f107af4946db1a1f58d8baf00e" kind="variable"><name>investmetList</name></member>
+    <member refid="class_state_two_1afcd150fde37f1ba61b392b36cff63d87" kind="function"><name>StateTwo</name></member>
+    <member refid="class_state_two_1a803591f6f0d2514b8641602aa5e73ce2" kind="function"><name>getChoosedInvesment</name></member>
+    <member refid="class_state_two_1a6608b7b7cbed0f45c47a7af375396799" kind="function"><name>constructFromState</name></member>
+    <member refid="class_state_two_1a62c5661f759757f383d773e7a7a7913f" kind="function"><name>getInformationAndSaveState</name></member>
+    <member refid="class_state_two_1abf8e3da47afddb27b449104a74cce1a9" kind="function"><name>infoIsValid</name></member>
+    <member refid="class_state_two_1adcd1b0b03bc3cedeefca4f3fa98916b9" kind="function"><name>displayErroMsg</name></member>
+    <member refid="class_state_two_1a57a1488b99190fa28ef4a728a2c72911" kind="function"><name>saveInContext</name></member>
+  </compound>
+  <compound refid="class_tesouro_selic" kind="class"><name>TesouroSelic</name>
+    <member refid="class_tesouro_selic_1ad4978a5efa2cb8f435b98443996ae991" kind="function"><name>deduzirImposto</name></member>
+    <member refid="class_tesouro_selic_1ae9f3ddabdbf5c31fb6801865ef6222e4" kind="function"><name>TesouroSelic</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="namespace_ui" kind="namespace"><name>Ui</name>
+  </compound>
+  <compound refid="caretaker_8cpp" kind="file"><name>caretaker.cpp</name>
+  </compound>
+  <compound refid="caretaker_8h" kind="file"><name>caretaker.h</name>
+  </compound>
+  <compound refid="cdb_8cpp" kind="file"><name>cdb.cpp</name>
+  </compound>
+  <compound refid="cdb_8h" kind="file"><name>cdb.h</name>
+  </compound>
+  <compound refid="financiamento_8cpp" kind="file"><name>financiamento.cpp</name>
+  </compound>
+  <compound refid="financiamento_8h" kind="file"><name>financiamento.h</name>
+  </compound>
+  <compound refid="form_8cpp" kind="file"><name>form.cpp</name>
+  </compound>
+  <compound refid="form_8h" kind="file"><name>form.h</name>
+  </compound>
+  <compound refid="investimento_8cpp" kind="file"><name>investimento.cpp</name>
+  </compound>
+  <compound refid="investimento_8h" kind="file"><name>investimento.h</name>
+  </compound>
+  <compound refid="investmentcontext_8cpp" kind="file"><name>investmentcontext.cpp</name>
+  </compound>
+  <compound refid="investmentcontext_8h" kind="file"><name>investmentcontext.h</name>
+  </compound>
+  <compound refid="investmentfactory_8cpp" kind="file"><name>investmentfactory.cpp</name>
+  </compound>
+  <compound refid="investmentfactory_8h" kind="file"><name>investmentfactory.h</name>
+  </compound>
+  <compound refid="investmenttypes_8h" kind="file"><name>investmenttypes.h</name>
+    <member refid="investmenttypes_8h_1aaf316bdf163e377c3189564de295edbd" kind="variable"><name>TESOURO_SELIC</name></member>
+    <member refid="investmenttypes_8h_1a6597100998a565f92a02a5f0a655eb5e" kind="variable"><name>POUPANCA</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="mainwindow_8cpp" kind="file"><name>mainwindow.cpp</name>
+  </compound>
+  <compound refid="mainwindow_8h" kind="file"><name>mainwindow.h</name>
+  </compound>
+  <compound refid="memento_8cpp" kind="file"><name>memento.cpp</name>
+  </compound>
+  <compound refid="memento_8h" kind="file"><name>memento.h</name>
+  </compound>
+  <compound refid="originator_8cpp" kind="file"><name>originator.cpp</name>
+  </compound>
+  <compound refid="originator_8h" kind="file"><name>originator.h</name>
+  </compound>
+  <compound refid="poupanca_8cpp" kind="file"><name>poupanca.cpp</name>
+  </compound>
+  <compound refid="poupanca_8h" kind="file"><name>poupanca.h</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="simulacaofacade_8cpp" kind="file"><name>simulacaofacade.cpp</name>
+  </compound>
+  <compound refid="simulacaofacade_8h" kind="file"><name>simulacaofacade.h</name>
+  </compound>
+  <compound refid="state_8cpp" kind="file"><name>state.cpp</name>
+  </compound>
+  <compound refid="state_8h" kind="file"><name>state.h</name>
+  </compound>
+  <compound refid="statecontext_8cpp" kind="file"><name>statecontext.cpp</name>
+  </compound>
+  <compound refid="statecontext_8h" kind="file"><name>statecontext.h</name>
+  </compound>
+  <compound refid="statefactory_8cpp" kind="file"><name>statefactory.cpp</name>
+  </compound>
+  <compound refid="statefactory_8h" kind="file"><name>statefactory.h</name>
+  </compound>
+  <compound refid="statefour_8cpp" kind="file"><name>statefour.cpp</name>
+  </compound>
+  <compound refid="statefour_8h" kind="file"><name>statefour.h</name>
+  </compound>
+  <compound refid="stateone_8cpp" kind="file"><name>stateone.cpp</name>
+  </compound>
+  <compound refid="stateone_8h" kind="file"><name>stateone.h</name>
+    <member refid="stateone_8h_1a5a0621aea0057c1dbd602932b90acf61" kind="variable"><name>TEXT_EDIT_NUM_PARCELAS</name></member>
+    <member refid="stateone_8h_1a19ab0fb850c852a0b6597b66c622c616" kind="variable"><name>TEXT_EDIT_VALOR_A_VISTA</name></member>
+    <member refid="stateone_8h_1a4e2398fdabb231a0c863feed0613d90d" kind="variable"><name>TEXT_EDIT_VALOR_DA_PARCELA</name></member>
+  </compound>
+  <compound refid="statethree_8cpp" kind="file"><name>statethree.cpp</name>
+  </compound>
+  <compound refid="statethree_8h" kind="file"><name>statethree.h</name>
+    <member refid="statethree_8h_1a5f9e3d212907aaf43fae456477abf81f" kind="variable"><name>TEXT_EDIT_RENDA_ANUAL</name></member>
+    <member refid="statethree_8h_1a263d74f338148a71b57b7c1e7f2db146" kind="variable"><name>TEXT_EDIT_VALOR_INVESTIMENTO</name></member>
+    <member refid="statethree_8h_1aefde4966ca52a4121c82d36d84271fc5" kind="variable"><name>TEXT_EDIT_DATA_FINAL_FINANCIAMENTO</name></member>
+    <member refid="statethree_8h_1a4bfa7eb4275cb482d55a08d76119b70a" kind="variable"><name>DATE_STRING_FORMAT</name></member>
+  </compound>
+  <compound refid="statetwo_8cpp" kind="file"><name>statetwo.cpp</name>
+  </compound>
+  <compound refid="statetwo_8h" kind="file"><name>statetwo.h</name>
+    <member refid="statetwo_8h_1aa8cf398536aa3bf75d07363bac4d3349" kind="variable"><name>COMBO_BOX_CHOOSE_INVESTMENT</name></member>
+  </compound>
+  <compound refid="tesouroselic_8cpp" kind="file"><name>tesouroselic.cpp</name>
+  </compound>
+  <compound refid="tesouroselic_8h" kind="file"><name>tesouroselic.h</name>
+  </compound>
+  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md_README</name>
+  </compound>
+</doxygenindex>

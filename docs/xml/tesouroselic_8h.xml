@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="tesouroselic_8h" kind="file" language="C++">
+    <compoundname>tesouroselic.h</compoundname>
+    <includes local="no">QObject</includes>
+    <includes refid="investimento_8h" local="yes">investimento.h</includes>
+    <includedby refid="investmentfactory_8cpp" local="yes">investmentfactory.cpp</includedby>
+    <includedby refid="tesouroselic_8cpp" local="yes">tesouroselic.cpp</includedby>
+    <incdepgraph>
+      <node id="347">
+        <label>QObject</label>
+      </node>
+      <node id="346">
+        <label>tesouroselic.h</label>
+        <link refid="tesouroselic_8h"/>
+        <childnode refid="347" relation="include">
+        </childnode>
+        <childnode refid="348" relation="include">
+        </childnode>
+      </node>
+      <node id="349">
+        <label>QDate</label>
+      </node>
+      <node id="348">
+        <label>investimento.h</label>
+        <link refid="investimento_8h"/>
+        <childnode refid="347" relation="include">
+        </childnode>
+        <childnode refid="349" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="352">
+        <label>tesouroselic.cpp</label>
+        <link refid="tesouroselic_8cpp"/>
+      </node>
+      <node id="351">
+        <label>investmentfactory.cpp</label>
+        <link refid="investmentfactory_8cpp"/>
+      </node>
+      <node id="350">
+        <label>tesouroselic.h</label>
+        <link refid="tesouroselic_8h"/>
+        <childnode refid="351" relation="include">
+        </childnode>
+        <childnode refid="352" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_tesouro_selic" prot="public">TesouroSelic</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TESOUROSELIC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TESOUROSELIC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="investimento_8h" kindref="compound">investimento.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_tesouro_selic" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_tesouro_selic" kindref="compound">TesouroSelic</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_investimento" kindref="compound">Investimento</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>deduzirImposto(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorFinalSemImposto,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorRendido);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_tesouro_selic" kindref="compound">TesouroSelic</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rAnual,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vInvestido,<sp/>QDate*<sp/>dtRetorno);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>TESOUROSELIC_H</highlight></codeline>
+    </programlisting>
+    <location file="tesouroselic.h"/>
+  </compounddef>
+</doxygen>

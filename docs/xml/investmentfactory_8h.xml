@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="investmentfactory_8h" kind="file" language="C++">
+    <compoundname>investmentfactory.h</compoundname>
+    <includes refid="investimento_8h" local="yes">investimento.h</includes>
+    <includes refid="investmenttypes_8h" local="yes">investmenttypes.h</includes>
+    <includedby refid="investmentfactory_8cpp" local="yes">investmentfactory.cpp</includedby>
+    <includedby refid="statethree_8cpp" local="yes">statethree.cpp</includedby>
+    <incdepgraph>
+      <node id="97">
+        <label>QObject</label>
+      </node>
+      <node id="95">
+        <label>investmentfactory.h</label>
+        <link refid="investmentfactory_8h"/>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>QDate</label>
+      </node>
+      <node id="99">
+        <label>investmenttypes.h</label>
+        <link refid="investmenttypes_8h"/>
+      </node>
+      <node id="96">
+        <label>investimento.h</label>
+        <link refid="investimento_8h"/>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="100">
+        <label>investmentfactory.h</label>
+        <link refid="investmentfactory_8h"/>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>investmentfactory.cpp</label>
+        <link refid="investmentfactory_8cpp"/>
+      </node>
+      <node id="102">
+        <label>statethree.cpp</label>
+        <link refid="statethree_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_investment_factory" prot="public">InvestmentFactory</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>INVESTMENTFACTORY_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INVESTMENTFACTORY_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="investimento_8h" kindref="compound">investimento.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="investmenttypes_8h" kindref="compound">investmenttypes.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_investment_factory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_investment_factory" kindref="compound">InvestmentFactory</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_investment_factory_1a55a46d135179359d6b1d7a0ef78710fe" kindref="member">InvestmentFactory</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_investimento" kindref="compound">Investimento</ref><sp/>*<ref refid="class_investment_factory_1af7de72d70c49b5005d936d8e691f3a4e" kindref="member">getInvestment</ref>(QString<sp/>investmentType,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rAnual,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vInvestido,<sp/>QDate*<sp/>dtRetorno);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>INVESTMENTFACTORY_H</highlight></codeline>
+    </programlisting>
+    <location file="investmentfactory.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="statecontext_8h" kind="file" language="C++">
+    <compoundname>statecontext.h</compoundname>
+    <includedby refid="statecontext_8cpp" local="yes">statecontext.cpp</includedby>
+    <invincdepgraph>
+      <node id="242">
+        <label>statecontext.cpp</label>
+        <link refid="statecontext_8cpp"/>
+      </node>
+      <node id="241">
+        <label>statecontext.h</label>
+        <link refid="statecontext_8h"/>
+        <childnode refid="242" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_state_context" prot="public">StateContext</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>STATECONTEXT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STATECONTEXT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_state_context" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_state_context" kindref="compound">StateContext</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_state_context_1a08534a7b5cf81cc742256c9e69199356" kindref="member">StateContext</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>STATECONTEXT_H</highlight></codeline>
+    </programlisting>
+    <location file="statecontext.h"/>
+  </compounddef>
+</doxygen>

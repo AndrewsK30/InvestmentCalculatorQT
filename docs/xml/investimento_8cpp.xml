@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="investimento_8cpp" kind="file" language="C++">
+    <compoundname>investimento.cpp</compoundname>
+    <includes refid="investimento_8h" local="yes">investimento.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="45">
+        <label>QObject</label>
+      </node>
+      <node id="46">
+        <label>QDate</label>
+      </node>
+      <node id="47">
+        <label>iostream</label>
+      </node>
+      <node id="43">
+        <label>investimento.cpp</label>
+        <link refid="investimento_8cpp"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>investimento.h</label>
+        <link refid="investimento_8h"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="investimento_8h" kindref="compound">investimento.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_investimento_1a753b2d9ce733291af14da400f3cf7004" refkind="member"><highlight class="normal"><ref refid="class_investimento_1a753b2d9ce733291af14da400f3cf7004" kindref="member">Investimento::Investimento</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rAnual,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vInvestido,<sp/>QDate*<sp/>dtRetorno)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>setRendimentoAnual(rAnual);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>setValorInvestido(vInvestido);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>setDataRetorno(dtRetorno);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_investimento_1af281c444e8919fa9e6b886839e82a121" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_investimento_1af281c444e8919fa9e6b886839e82a121" kindref="member">Investimento::setRendimentoAnual</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>rendimentoAnual<sp/>=<sp/>r;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_investimento_1af2e4c34d7bc868d2746ca29aa92ddf75" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_investimento_1af2e4c34d7bc868d2746ca29aa92ddf75" kindref="member">Investimento::setValorInvestido</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>valorInvestido<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_investimento_1a2cbdce10b5c9cbaa9f9300c61ac4dee1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_investimento_1a2cbdce10b5c9cbaa9f9300c61ac4dee1" kindref="member">Investimento::setDataRetorno</ref>(QDate*<sp/>dt)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>dataRetorno<sp/>=<sp/>dt;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Investimento::calcularRendimentoMensal()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rendimentoMensal<sp/>=<sp/>rendimentoAnual<sp/>/<sp/>12;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rendimentoMensal;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Investimento::calcularNumeroMesesInvestimento()</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>QDate*<sp/>dataAtual<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QDate(QDate::currentDate());</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>months<sp/>=<sp/>(dataRetorno-&gt;year()<sp/>-<sp/>dataAtual-&gt;year())*12<sp/>+<sp/>dataRetorno-&gt;month()<sp/>-<sp/>dataAtual-&gt;month();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>months;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Investimento::calcularRetorno(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorRendido)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorFinal<sp/>=<sp/>valorInvestido<sp/>+<sp/>valorRendido;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>valorFinal;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Investimento::calcularValorRendido(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rendimentoMensal,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numeroMesesInvestimento)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorRendido<sp/>=<sp/>valorInvestido<sp/>*<sp/>rendimentoMensal<sp/>*<sp/>numeroMesesInvestimento;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>valorRendido;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="class_investimento_1a5bc808f2a784def7d3361ce3c74ff366" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_investimento_1a5bc808f2a784def7d3361ce3c74ff366" kindref="member">Investimento::calcular</ref>()</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rendimentoMensal<sp/>=<sp/>calcularRendimentoMensal();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numeroMesesInvestimento<sp/>=<sp/>calcularNumeroMesesInvestimento();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorRendido<sp/>=<sp/>calcularValorRendido(rendimentoMensal,<sp/>numeroMesesInvestimento);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorFinalSemImposto<sp/>=<sp/>calcularRetorno(valorRendido);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorDeduzido<sp/>=<sp/>deduzirImposto(valorFinalSemImposto,<sp/>valorRendido);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>valorDeduzido;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="investimento.cpp"/>
+  </compounddef>
+</doxygen>

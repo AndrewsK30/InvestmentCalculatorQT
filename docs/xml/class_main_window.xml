@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_main_window" kind="class" language="C++" prot="public">
+    <compoundname>MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <includes refid="mainwindow_8h" local="no">mainwindow.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_main_window_1a24f9134639eefcdbc26230701ca4707a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_originator" kindref="compound">Originator</ref> *</type>
+        <definition>Originator* MainWindow::originator</definition>
+        <argsstring></argsstring>
+        <name>originator</name>
+        <initializer>= new <ref refid="class_originator" kindref="compound">Originator</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="16" column="1" bodyfile="mainwindow.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ae55693c365838eb86d63f4e5e15f691f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_care_taker" kindref="compound">CareTaker</ref> *</type>
+        <definition>CareTaker* MainWindow::careTaker</definition>
+        <argsstring></argsstring>
+        <name>careTaker</name>
+        <initializer>= new <ref refid="class_care_taker" kindref="compound">CareTaker</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="17" column="1" bodyfile="mainwindow.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1afe14245005fd1b2aa355c4b09e7dc042" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MainWindow::stateNumber</definition>
+        <argsstring></argsstring>
+        <name>stateNumber</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="18" column="1" bodyfile="mainwindow.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1a35466a70ed47252a0191168126a352a5" prot="private" static="no" mutable="no">
+        <type>Ui::MainWindow *</type>
+        <definition>Ui::MainWindow* MainWindow::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="25" column="1" bodyfile="mainwindow.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_main_window_1a8b244be8b7b7db1b08de2a2acb9409db" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::MainWindow</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>MainWindow</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="20" column="1" bodyfile="mainwindow.cpp" bodystart="6" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::~MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="21" column="1" bodyfile="mainwindow.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_main_window_1ac5cfd506cc94aa8be3d4dd16146e7554" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="26" column="1" bodyfile="mainwindow.cpp" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1af5f4d2550d55a52ef4953cb929dd4831" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::contructForm</definition>
+        <argsstring>()</argsstring>
+        <name>contructForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="27" column="1" bodyfile="mainwindow.cpp" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1a3756acc2da9fdc4d884e1d0053e26ce5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::goNextState</definition>
+        <argsstring>()</argsstring>
+        <name>goNextState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="28" column="1" bodyfile="mainwindow.cpp" bodystart="33" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1ab42a842378ba011897988f29a6d5429c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::cleanLayout</definition>
+        <argsstring>(QLayout *layout)</argsstring>
+        <name>cleanLayout</name>
+        <param>
+          <type>QLayout *</type>
+          <declname>layout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="29" column="1" bodyfile="mainwindow.cpp" bodystart="40" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_main_window_1a7a4e44b382874f1fce9f5d8e2cb56b36" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::onNextState</definition>
+        <argsstring>()</argsstring>
+        <name>onNextState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="31" column="1" bodyfile="mainwindow.cpp" bodystart="51" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a946a2e520e492495568346724ec359ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::onPrevState</definition>
+        <argsstring>()</argsstring>
+        <name>onPrevState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="32" column="1" bodyfile="mainwindow.cpp" bodystart="63" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="19">
+        <label>QMainWindow</label>
+      </node>
+      <node id="18">
+        <label>MainWindow</label>
+        <link refid="class_main_window"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>QMainWindow</label>
+      </node>
+      <node id="20">
+        <label>MainWindow</label>
+        <link refid="class_main_window"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="mainwindow.h" line="14" column="1" bodyfile="mainwindow.h" bodystart="13" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_main_window_1ae55693c365838eb86d63f4e5e15f691f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>careTaker</name></member>
+      <member refid="class_main_window_1ab42a842378ba011897988f29a6d5429c" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>cleanLayout</name></member>
+      <member refid="class_main_window_1af5f4d2550d55a52ef4953cb929dd4831" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>contructForm</name></member>
+      <member refid="class_main_window_1a3756acc2da9fdc4d884e1d0053e26ce5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>goNextState</name></member>
+      <member refid="class_main_window_1a8b244be8b7b7db1b08de2a2acb9409db" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_main_window_1a7a4e44b382874f1fce9f5d8e2cb56b36" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>onNextState</name></member>
+      <member refid="class_main_window_1a946a2e520e492495568346724ec359ec" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>onPrevState</name></member>
+      <member refid="class_main_window_1a24f9134639eefcdbc26230701ca4707a" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>originator</name></member>
+      <member refid="class_main_window_1ac5cfd506cc94aa8be3d4dd16146e7554" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>setup</name></member>
+      <member refid="class_main_window_1afe14245005fd1b2aa355c4b09e7dc042" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>stateNumber</name></member>
+      <member refid="class_main_window_1a35466a70ed47252a0191168126a352a5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>ui</name></member>
+      <member refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>~MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

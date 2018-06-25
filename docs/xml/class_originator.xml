@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_originator" kind="class" language="C++" prot="public">
+    <compoundname>Originator</compoundname>
+    <includes refid="originator_8h" local="no">originator.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_originator_1ad00a11e30e9d74e99ce90e860ad7c86a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_state" kindref="compound">State</ref> *</type>
+        <definition>State* Originator::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="originator.h" line="11" column="1" bodyfile="originator.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_originator_1a8f0760dd0c809ced78a5483f96020220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Originator::Originator</definition>
+        <argsstring>()</argsstring>
+        <name>Originator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="originator.h" line="13" column="1" bodyfile="originator.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_originator_1a5d907aff48e19556932c86b6ba1b43ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_state" kindref="compound">State</ref> *</type>
+        <definition>State * Originator::getState</definition>
+        <argsstring>() const</argsstring>
+        <name>getState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="originator.h" line="15" column="1" bodyfile="originator.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_originator_1a02b0f3e1e057a8e1e9bc904a5b2d73c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Originator::setState</definition>
+        <argsstring>(State *value)</argsstring>
+        <name>setState</name>
+        <param>
+          <type><ref refid="class_state" kindref="compound">State</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="originator.h" line="16" column="1" bodyfile="originator.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_originator_1a8adaa85e6559767c252f578ee2e51bbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_memento" kindref="compound">Memento</ref> *</type>
+        <definition>Memento * Originator::saveStateToMemento</definition>
+        <argsstring>()</argsstring>
+        <name>saveStateToMemento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="originator.h" line="18" column="1" bodyfile="originator.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_originator_1a4656bfe71adbb1ac5cbd2ffbbc5df278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Originator::getStateFromMemento</definition>
+        <argsstring>(Memento *memento)</argsstring>
+        <name>getStateFromMemento</name>
+        <param>
+          <type><ref refid="class_memento" kindref="compound">Memento</ref> *</type>
+          <declname>memento</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="originator.h" line="19" column="1" bodyfile="originator.cpp" bodystart="18" bodyend="21"/>
+        <references refid="class_memento_1abbdf2924953cc15b11cd6d206490146b" compoundref="memento_8cpp" startline="8" endline="11">Memento::getState</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="25">
+        <label>Originator</label>
+        <link refid="class_originator"/>
+      </node>
+    </collaborationgraph>
+    <location file="originator.h" line="10" column="1" bodyfile="originator.h" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_originator_1a5d907aff48e19556932c86b6ba1b43ca" prot="public" virt="non-virtual"><scope>Originator</scope><name>getState</name></member>
+      <member refid="class_originator_1a4656bfe71adbb1ac5cbd2ffbbc5df278" prot="public" virt="non-virtual"><scope>Originator</scope><name>getStateFromMemento</name></member>
+      <member refid="class_originator_1a8f0760dd0c809ced78a5483f96020220" prot="public" virt="non-virtual"><scope>Originator</scope><name>Originator</name></member>
+      <member refid="class_originator_1a8adaa85e6559767c252f578ee2e51bbe" prot="public" virt="non-virtual"><scope>Originator</scope><name>saveStateToMemento</name></member>
+      <member refid="class_originator_1a02b0f3e1e057a8e1e9bc904a5b2d73c0" prot="public" virt="non-virtual"><scope>Originator</scope><name>setState</name></member>
+      <member refid="class_originator_1ad00a11e30e9d74e99ce90e860ad7c86a" prot="private" virt="non-virtual"><scope>Originator</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

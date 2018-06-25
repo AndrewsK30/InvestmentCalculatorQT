@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="tesouroselic_8cpp" kind="file" language="C++">
+    <compoundname>tesouroselic.cpp</compoundname>
+    <includes refid="tesouroselic_8h" local="yes">tesouroselic.h</includes>
+    <incdepgraph>
+      <node id="340">
+        <label>tesouroselic.cpp</label>
+        <link refid="tesouroselic_8cpp"/>
+        <childnode refid="341" relation="include">
+        </childnode>
+      </node>
+      <node id="342">
+        <label>QObject</label>
+      </node>
+      <node id="341">
+        <label>tesouroselic.h</label>
+        <link refid="tesouroselic_8h"/>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+      </node>
+      <node id="344">
+        <label>QDate</label>
+      </node>
+      <node id="343">
+        <label>investimento.h</label>
+        <link refid="investimento_8h"/>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tesouroselic_8h" kindref="compound">tesouroselic.h</ref>&quot;</highlight><highlight class="normal">.h</highlight><highlight class="stringliteral">&quot;</highlight></codeline>
+<codeline lineno="2"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="3" refid="class_tesouro_selic_1ae9f3ddabdbf5c31fb6801865ef6222e4" refkind="member"><highlight class="stringliteral">TesouroSelic::TesouroSelic(double<sp/>rAnual,<sp/>double<sp/>vInvestido,<sp/>QDate*<sp/>dtRetorno)<sp/>:<sp/>Investimento(rAnual,<sp/>vInvestido,<sp/>dtRetorno)</highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral">{}</highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="6" refid="class_tesouro_selic_1ad4978a5efa2cb8f435b98443996ae991" refkind="member"><highlight class="stringliteral">double<sp/>TesouroSelic::deduzirImposto(double<sp/>valorFinalSemImposto,<sp/>double<sp/>valorRendido)</highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral">{</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>int<sp/>numeroDiasInvestimento<sp/>=<sp/>getDataRetorno()-&gt;daysTo(QDate::currentDate());</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>double<sp/>taxaTributacao;</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>if(numeroDiasInvestimento<sp/>&lt;=<sp/>180)</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>taxaTributacao<sp/>=<sp/>0.225;</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>else<sp/>if(numeroDiasInvestimento<sp/>&lt;=<sp/>360)</highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>taxaTributacao<sp/>=<sp/>0.2;</highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>else<sp/>if(numeroDiasInvestimento<sp/>&lt;=<sp/>720)</highlight></codeline>
+<codeline lineno="21"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>taxaTributacao<sp/>=<sp/>0.175;</highlight></codeline>
+<codeline lineno="23"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>else</highlight></codeline>
+<codeline lineno="25"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>taxaTributacao<sp/>=<sp/>0.15;</highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>return<sp/>valorFinalSemImposto<sp/>-<sp/>(valorRendido<sp/>*<sp/>taxaTributacao);</highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral">}</highlight></codeline>
+    </programlisting>
+    <location file="tesouroselic.cpp"/>
+  </compounddef>
+</doxygen>

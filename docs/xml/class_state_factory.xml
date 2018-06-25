@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_state_factory" kind="class" language="C++" prot="public">
+    <compoundname>StateFactory</compoundname>
+    <includes refid="statefactory_8h" local="no">statefactory.h</includes>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_state_factory_1aec1f9e7ec8a2f0d92b9ad25dba3883d4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StateFactory::StateFactory</definition>
+        <argsstring>()</argsstring>
+        <name>StateFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statefactory.h" line="10" column="1" bodyfile="statefactory.cpp" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_state_factory_1ab79f4daaf488584099a91065eafa4a10" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_state" kindref="compound">State</ref> *</type>
+        <definition>State * StateFactory::getState</definition>
+        <argsstring>(int state)</argsstring>
+        <name>getState</name>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statefactory.h" line="13" column="1" bodyfile="statefactory.cpp" bodystart="12" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="45">
+        <label>StateFactory</label>
+        <link refid="class_state_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="statefactory.h" line="9" column="1" bodyfile="statefactory.h" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_state_factory_1ab79f4daaf488584099a91065eafa4a10" prot="public" virt="non-virtual"><scope>StateFactory</scope><name>getState</name></member>
+      <member refid="class_state_factory_1aec1f9e7ec8a2f0d92b9ad25dba3883d4" prot="private" virt="non-virtual"><scope>StateFactory</scope><name>StateFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

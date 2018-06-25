@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_state_two" kind="class" language="C++" prot="public">
+    <compoundname>StateTwo</compoundname>
+    <basecompoundref refid="class_state" prot="public" virt="non-virtual">State</basecompoundref>
+    <includes refid="statetwo_8h" local="no">statetwo.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_state_two_1a1ea0bb99a6b5ab398a86d81a4ab8cf6a" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString StateTwo::choosedInvesment</definition>
+        <argsstring></argsstring>
+        <name>choosedInvesment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statetwo.h" line="14" column="1" bodyfile="statetwo.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_state_two_1af76176f107af4946db1a1f58d8baf00e" prot="public" static="no" mutable="no">
+        <type>QStringList</type>
+        <definition>QStringList StateTwo::investmetList</definition>
+        <argsstring></argsstring>
+        <name>investmetList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statetwo.h" line="17" column="1" bodyfile="statetwo.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_state_two_1afcd150fde37f1ba61b392b36cff63d87" compoundref="statetwo_8cpp" startline="12" endline="16">StateTwo</referencedby>
+        <referencedby refid="class_state_two_1a6608b7b7cbed0f45c47a7af375396799" compoundref="statetwo_8cpp" startline="18" endline="34">constructFromState</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_state_two_1afcd150fde37f1ba61b392b36cff63d87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StateTwo::StateTwo</definition>
+        <argsstring>()</argsstring>
+        <name>StateTwo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statetwo.h" line="18" column="1" bodyfile="statetwo.cpp" bodystart="12" bodyend="16"/>
+        <references refid="class_state_two_1af76176f107af4946db1a1f58d8baf00e" compoundref="statetwo_8h" startline="17">investmetList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_state_two_1a803591f6f0d2514b8641602aa5e73ce2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString StateTwo::getChoosedInvesment</definition>
+        <argsstring>() const</argsstring>
+        <name>getChoosedInvesment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statetwo.h" line="20" column="1" bodyfile="statetwo.cpp" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_state_two_1a6608b7b7cbed0f45c47a7af375396799" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StateTwo::constructFromState</definition>
+        <argsstring>(QObject *form)</argsstring>
+        <name>constructFromState</name>
+        <reimplements refid="class_state_1a83742a76f279ed90fec9dd662c10e3b5">constructFromState</reimplements>
+        <param>
+          <type>QObject *</type>
+          <declname>form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statetwo.h" line="23" column="1" bodyfile="statetwo.cpp" bodystart="18" bodyend="34"/>
+        <references refid="class_state_two_1af76176f107af4946db1a1f58d8baf00e" compoundref="statetwo_8h" startline="17">investmetList</references>
+        <references refid="statetwo_8h_1aa8cf398536aa3bf75d07363bac4d3349" compoundref="statetwo_8h" startline="10">COMBO_BOX_CHOOSE_INVESTMENT</references>
+      </memberdef>
+      <memberdef kind="function" id="class_state_two_1a62c5661f759757f383d773e7a7a7913f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StateTwo::getInformationAndSaveState</definition>
+        <argsstring>(QObject *form)</argsstring>
+        <name>getInformationAndSaveState</name>
+        <reimplements refid="class_state_1ac1ce8d14817ed7e73fe6c9cb52138059">getInformationAndSaveState</reimplements>
+        <param>
+          <type>QObject *</type>
+          <declname>form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statetwo.h" line="24" column="1" bodyfile="statetwo.cpp" bodystart="36" bodyend="39"/>
+        <references refid="statetwo_8h_1aa8cf398536aa3bf75d07363bac4d3349" compoundref="statetwo_8h" startline="10">COMBO_BOX_CHOOSE_INVESTMENT</references>
+      </memberdef>
+      <memberdef kind="function" id="class_state_two_1abf8e3da47afddb27b449104a74cce1a9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool StateTwo::infoIsValid</definition>
+        <argsstring>()</argsstring>
+        <name>infoIsValid</name>
+        <reimplements refid="class_state_1a24c0c03b0e0ae455f6fa4147c0a9b50c">infoIsValid</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statetwo.h" line="25" column="1" bodyfile="statetwo.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_state_two_1adcd1b0b03bc3cedeefca4f3fa98916b9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StateTwo::displayErroMsg</definition>
+        <argsstring>()</argsstring>
+        <name>displayErroMsg</name>
+        <reimplements refid="class_state_1a7c2060b170abf8d929d14ef257a7dd79">displayErroMsg</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statetwo.h" line="26" column="1" bodyfile="statetwo.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_state_two_1a57a1488b99190fa28ef4a728a2c72911" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StateTwo::saveInContext</definition>
+        <argsstring>()</argsstring>
+        <name>saveInContext</name>
+        <reimplements refid="class_state_1a38b841d6fc5f6b26d6e5a7d1efdf4524">saveInContext</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statetwo.h" line="30" column="1" bodyfile="statetwo.cpp" bodystart="51" bodyend="54"/>
+        <references refid="class_investment_context_1ab8a4d7250517af915d518478740dab57" compoundref="investmentcontext_8h" startline="22" endline="29">InvestmentContext::getInstance</references>
+        <references refid="class_investment_context_1abdc5675e11a3fa67a8b09aae1cfccd23" compoundref="investmentcontext_8cpp" startline="31" endline="34">InvestmentContext::setInvestment</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="58">
+        <label>StateTwo</label>
+        <link refid="class_state_two"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>State</label>
+        <link refid="class_state"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="60">
+        <label>StateTwo</label>
+        <link refid="class_state_two"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>State</label>
+        <link refid="class_state"/>
+      </node>
+    </collaborationgraph>
+    <location file="statetwo.h" line="13" column="1" bodyfile="statetwo.h" bodystart="12" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_state_1adc3efce8b999ab26f4584d316f6b177b" prot="public" virt="non-virtual"><scope>StateTwo</scope><name>canGoNextState</name></member>
+      <member refid="class_state_two_1a1ea0bb99a6b5ab398a86d81a4ab8cf6a" prot="private" virt="non-virtual"><scope>StateTwo</scope><name>choosedInvesment</name></member>
+      <member refid="class_state_1aa4ddeb49e1ff1207ce99331f13db53ff" prot="public" virt="non-virtual"><scope>StateTwo</scope><name>construct</name></member>
+      <member refid="class_state_two_1a6608b7b7cbed0f45c47a7af375396799" prot="protected" virt="virtual"><scope>StateTwo</scope><name>constructFromState</name></member>
+      <member refid="class_state_two_1adcd1b0b03bc3cedeefca4f3fa98916b9" prot="protected" virt="virtual"><scope>StateTwo</scope><name>displayErroMsg</name></member>
+      <member refid="class_state_two_1a803591f6f0d2514b8641602aa5e73ce2" prot="public" virt="non-virtual"><scope>StateTwo</scope><name>getChoosedInvesment</name></member>
+      <member refid="class_state_two_1a62c5661f759757f383d773e7a7a7913f" prot="protected" virt="virtual"><scope>StateTwo</scope><name>getInformationAndSaveState</name></member>
+      <member refid="class_state_two_1abf8e3da47afddb27b449104a74cce1a9" prot="protected" virt="virtual"><scope>StateTwo</scope><name>infoIsValid</name></member>
+      <member refid="class_state_two_1af76176f107af4946db1a1f58d8baf00e" prot="public" virt="non-virtual"><scope>StateTwo</scope><name>investmetList</name></member>
+      <member refid="class_state_two_1a57a1488b99190fa28ef4a728a2c72911" prot="protected" virt="virtual"><scope>StateTwo</scope><name>saveInContext</name></member>
+      <member refid="class_state_1ab91bb1dd5aa6260ab2a456581daf9ec2" prot="protected" virt="non-virtual"><scope>StateTwo</scope><name>State</name></member>
+      <member refid="class_state_two_1afcd150fde37f1ba61b392b36cff63d87" prot="public" virt="non-virtual"><scope>StateTwo</scope><name>StateTwo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

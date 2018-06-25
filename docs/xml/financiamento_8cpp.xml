@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="financiamento_8cpp" kind="file" language="C++">
+    <compoundname>financiamento.cpp</compoundname>
+    <includes refid="financiamento_8h" local="yes">financiamento.h</includes>
+    <incdepgraph>
+      <node id="23">
+        <label>QObject</label>
+      </node>
+      <node id="21">
+        <label>financiamento.cpp</label>
+        <link refid="financiamento_8cpp"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>financiamento.h</label>
+        <link refid="financiamento_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="financiamento_8h" kindref="compound">financiamento.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_financiamento_1adfc016aa85f201637210e55f2557ef4b" refkind="member"><highlight class="normal"><ref refid="class_financiamento_1adfc016aa85f201637210e55f2557ef4b" kindref="member">Financiamento::Financiamento</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nVezes,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vParcela)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_financiamento_1aec7eab4faadc80d706c921aee3d1112e" kindref="member">setNumeroVezes</ref>(nVezes);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_financiamento_1a5c779d490e9b752b477383accc396e66" kindref="member">setValorParcela</ref>(vParcela);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_financiamento_1a2ca8fe5d8d518731147586b9ab381dfc" kindref="member">setValorTotalFinanciado</ref>(nVezes,<sp/>vParcela);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_financiamento_1aec7eab4faadc80d706c921aee3d1112e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_financiamento_1aec7eab4faadc80d706c921aee3d1112e" kindref="member">Financiamento::setNumeroVezes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>numeroVezes<sp/>=<sp/>n;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_financiamento_1a5c779d490e9b752b477383accc396e66" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_financiamento_1a5c779d490e9b752b477383accc396e66" kindref="member">Financiamento::setValorParcela</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>valorParcela<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_financiamento_1a2ca8fe5d8d518731147586b9ab381dfc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_financiamento_1a2ca8fe5d8d518731147586b9ab381dfc" kindref="member">Financiamento::setValorTotalFinanciado</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nVezes,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vParcela)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>valorTotalFinanciado<sp/>=<sp/>nVezes<sp/>*<sp/>vParcela;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="financiamento.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_investment_context" kind="class" language="C++" prot="public">
+    <compoundname>InvestmentContext</compoundname>
+    <includes refid="investmentcontext_8h" local="no">investmentcontext.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_investment_context_1a20b33878b7e08bdaeaf8bd3051dde27e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_investimento" kindref="compound">Investimento</ref> *</type>
+        <definition>Investimento* InvestmentContext::investimento</definition>
+        <argsstring></argsstring>
+        <name>investimento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentcontext.h" line="13" column="1" bodyfile="investmentcontext.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_investment_context_1a5ee92f0df9b39854ff8bd30c33a25615" prot="private" static="no" mutable="no">
+        <type><ref refid="class_financiamento" kindref="compound">Financiamento</ref> *</type>
+        <definition>Financiamento* InvestmentContext::financiamento</definition>
+        <argsstring></argsstring>
+        <name>financiamento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentcontext.h" line="14" column="1" bodyfile="investmentcontext.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_investment_context_1a8bee1308d41e94d66f1e356b5d7f5e1c" prot="private" static="no" mutable="no">
+        <type>QString *</type>
+        <definition>QString* InvestmentContext::investment</definition>
+        <argsstring></argsstring>
+        <name>investment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentcontext.h" line="15" column="1" bodyfile="investmentcontext.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_investment_context_1a698f13769ad51a5b5346bf34854d54e9" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_investment_context" kindref="compound">InvestmentContext</ref> *</type>
+        <definition>InvestmentContext * InvestmentContext::instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentcontext.h" line="17" column="1" bodyfile="investmentcontext.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_investment_context_1af32c2cd0790acbcbd6fe5a3635acc325" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InvestmentContext::InvestmentContext</definition>
+        <argsstring>()</argsstring>
+        <name>InvestmentContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentcontext.h" line="18" column="1" bodyfile="investmentcontext.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_investment_context_1ab8a4d7250517af915d518478740dab57" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_investment_context" kindref="compound">InvestmentContext</ref> *</type>
+        <definition>static InvestmentContext* InvestmentContext::getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentcontext.h" line="22" column="1" bodyfile="investmentcontext.h" bodystart="22" bodyend="29"/>
+        <referencedby refid="class_state_four_1a06d81d6438922f4203ce085898191b2b" compoundref="statefour_8cpp" startline="13" endline="26">StateFour::constructFromState</referencedby>
+        <referencedby refid="class_state_one_1a816d42e9b1245e1caa7af05ca3efdc90" compoundref="stateone_8cpp" startline="62" endline="66">StateOne::saveInContext</referencedby>
+        <referencedby refid="class_state_three_1a2045f458debc5bfe040a56e7d5a86f28" compoundref="statethree_8cpp" startline="74" endline="85">StateThree::saveInContext</referencedby>
+        <referencedby refid="class_state_two_1a57a1488b99190fa28ef4a728a2c72911" compoundref="statetwo_8cpp" startline="51" endline="54">StateTwo::saveInContext</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_investment_context_1aa0f55ff1a27cee2c6c2fb46e78d73bb1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_financiamento" kindref="compound">Financiamento</ref> *</type>
+        <definition>Financiamento * InvestmentContext::getFinanciamento</definition>
+        <argsstring>() const</argsstring>
+        <name>getFinanciamento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentcontext.h" line="32" column="1" bodyfile="investmentcontext.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investment_context_1aacff6446f411a056d3b1b62e10f99298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InvestmentContext::setFinanciamento</definition>
+        <argsstring>(Financiamento *value)</argsstring>
+        <name>setFinanciamento</name>
+        <param>
+          <type><ref refid="class_financiamento" kindref="compound">Financiamento</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentcontext.h" line="33" column="1" bodyfile="investmentcontext.cpp" bodystart="11" bodyend="14"/>
+        <referencedby refid="class_state_one_1a816d42e9b1245e1caa7af05ca3efdc90" compoundref="stateone_8cpp" startline="62" endline="66">StateOne::saveInContext</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_investment_context_1a912c93b7d692ab4c001d37d6ecc543ff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_investimento" kindref="compound">Investimento</ref> *</type>
+        <definition>Investimento * InvestmentContext::getInvestimento</definition>
+        <argsstring>() const</argsstring>
+        <name>getInvestimento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentcontext.h" line="34" column="1" bodyfile="investmentcontext.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investment_context_1a1e7acfbfcdeda62cede130965a95b68a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InvestmentContext::setInvestimento</definition>
+        <argsstring>(Investimento *value)</argsstring>
+        <name>setInvestimento</name>
+        <param>
+          <type><ref refid="class_investimento" kindref="compound">Investimento</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentcontext.h" line="35" column="1" bodyfile="investmentcontext.cpp" bodystart="21" bodyend="24"/>
+        <referencedby refid="class_state_three_1a2045f458debc5bfe040a56e7d5a86f28" compoundref="statethree_8cpp" startline="74" endline="85">StateThree::saveInContext</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_investment_context_1a40659055a8b833128368f16edad07fc1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString *</type>
+        <definition>QString * InvestmentContext::getInvestment</definition>
+        <argsstring>() const</argsstring>
+        <name>getInvestment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentcontext.h" line="36" column="1" bodyfile="investmentcontext.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investment_context_1abdc5675e11a3fa67a8b09aae1cfccd23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InvestmentContext::setInvestment</definition>
+        <argsstring>(QString *value)</argsstring>
+        <name>setInvestment</name>
+        <param>
+          <type>QString *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentcontext.h" line="37" column="1" bodyfile="investmentcontext.cpp" bodystart="31" bodyend="34"/>
+        <referencedby refid="class_state_two_1a57a1488b99190fa28ef4a728a2c72911" compoundref="statetwo_8cpp" startline="51" endline="54">StateTwo::saveInContext</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="15">
+        <label>InvestmentContext</label>
+        <link refid="class_investment_context"/>
+      </node>
+    </collaborationgraph>
+    <location file="investmentcontext.h" line="10" column="1" bodyfile="investmentcontext.h" bodystart="9" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_investment_context_1a5ee92f0df9b39854ff8bd30c33a25615" prot="private" virt="non-virtual"><scope>InvestmentContext</scope><name>financiamento</name></member>
+      <member refid="class_investment_context_1aa0f55ff1a27cee2c6c2fb46e78d73bb1" prot="public" virt="non-virtual"><scope>InvestmentContext</scope><name>getFinanciamento</name></member>
+      <member refid="class_investment_context_1ab8a4d7250517af915d518478740dab57" prot="public" virt="non-virtual"><scope>InvestmentContext</scope><name>getInstance</name></member>
+      <member refid="class_investment_context_1a912c93b7d692ab4c001d37d6ecc543ff" prot="public" virt="non-virtual"><scope>InvestmentContext</scope><name>getInvestimento</name></member>
+      <member refid="class_investment_context_1a40659055a8b833128368f16edad07fc1" prot="public" virt="non-virtual"><scope>InvestmentContext</scope><name>getInvestment</name></member>
+      <member refid="class_investment_context_1a698f13769ad51a5b5346bf34854d54e9" prot="private" virt="non-virtual"><scope>InvestmentContext</scope><name>instance</name></member>
+      <member refid="class_investment_context_1a20b33878b7e08bdaeaf8bd3051dde27e" prot="private" virt="non-virtual"><scope>InvestmentContext</scope><name>investimento</name></member>
+      <member refid="class_investment_context_1a8bee1308d41e94d66f1e356b5d7f5e1c" prot="private" virt="non-virtual"><scope>InvestmentContext</scope><name>investment</name></member>
+      <member refid="class_investment_context_1af32c2cd0790acbcbd6fe5a3635acc325" prot="private" virt="non-virtual"><scope>InvestmentContext</scope><name>InvestmentContext</name></member>
+      <member refid="class_investment_context_1aacff6446f411a056d3b1b62e10f99298" prot="public" virt="non-virtual"><scope>InvestmentContext</scope><name>setFinanciamento</name></member>
+      <member refid="class_investment_context_1a1e7acfbfcdeda62cede130965a95b68a" prot="public" virt="non-virtual"><scope>InvestmentContext</scope><name>setInvestimento</name></member>
+      <member refid="class_investment_context_1abdc5675e11a3fa67a8b09aae1cfccd23" prot="public" virt="non-virtual"><scope>InvestmentContext</scope><name>setInvestment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

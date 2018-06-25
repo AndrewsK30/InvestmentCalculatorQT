@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="statethree_8cpp" kind="file" language="C++">
+    <compoundname>statethree.cpp</compoundname>
+    <includes refid="investimento_8h" local="yes">investimento.h</includes>
+    <includes refid="investmentcontext_8h" local="yes">investmentcontext.h</includes>
+    <includes refid="investmentfactory_8h" local="yes">investmentfactory.h</includes>
+    <includes refid="statethree_8h" local="yes">statethree.h</includes>
+    <includes local="no">QLineEdit</includes>
+    <includes local="no">qformlayout.h</includes>
+    <includes local="no">qlabel.h</includes>
+    <incdepgraph>
+      <node id="304">
+        <label>investmentcontext.h</label>
+        <link refid="investmentcontext_8h"/>
+        <childnode refid="305" relation="include">
+        </childnode>
+        <childnode refid="301" relation="include">
+        </childnode>
+      </node>
+      <node id="302">
+        <label>QObject</label>
+      </node>
+      <node id="306">
+        <label>investmentfactory.h</label>
+        <link refid="investmentfactory_8h"/>
+        <childnode refid="301" relation="include">
+        </childnode>
+        <childnode refid="307" relation="include">
+        </childnode>
+      </node>
+      <node id="311">
+        <label>qformlayout.h</label>
+      </node>
+      <node id="308">
+        <label>statethree.h</label>
+        <link refid="statethree_8h"/>
+        <childnode refid="309" relation="include">
+        </childnode>
+        <childnode refid="303" relation="include">
+        </childnode>
+      </node>
+      <node id="309">
+        <label>state.h</label>
+        <link refid="state_8h"/>
+        <childnode refid="302" relation="include">
+        </childnode>
+      </node>
+      <node id="305">
+        <label>financiamento.h</label>
+        <link refid="financiamento_8h"/>
+        <childnode refid="302" relation="include">
+        </childnode>
+      </node>
+      <node id="300">
+        <label>statethree.cpp</label>
+        <link refid="statethree_8cpp"/>
+        <childnode refid="301" relation="include">
+        </childnode>
+        <childnode refid="304" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
+        </childnode>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+      </node>
+      <node id="310">
+        <label>QLineEdit</label>
+      </node>
+      <node id="303">
+        <label>QDate</label>
+      </node>
+      <node id="312">
+        <label>qlabel.h</label>
+      </node>
+      <node id="307">
+        <label>investmenttypes.h</label>
+        <link refid="investmenttypes_8h"/>
+      </node>
+      <node id="301">
+        <label>investimento.h</label>
+        <link refid="investimento_8h"/>
+        <childnode refid="302" relation="include">
+        </childnode>
+        <childnode refid="303" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="investimento_8h" kindref="compound">investimento.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="investmentcontext_8h" kindref="compound">investmentcontext.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="investmentfactory_8h" kindref="compound">investmentfactory.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="statethree_8h" kindref="compound">statethree.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QLineEdit&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qformlayout.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlabel.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_state_three_1a4658d76ab166f6b2fd55af19d5b82759" refkind="member"><highlight class="normal"><ref refid="class_state_three_1a4658d76ab166f6b2fd55af19d5b82759" kindref="member">StateThree::StateThree</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>dateNow<sp/>=<sp/>QDate::currentDate().toString(<ref refid="statethree_8h_1a4bfa7eb4275cb482d55a08d76119b70a" kindref="member">DATE_STRING_FORMAT</ref>);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>dataFinalFinanciamento<sp/>=<sp/>dateNow;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_state_three_1a629420abe5485db5fc7793d80494353e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_three_1a629420abe5485db5fc7793d80494353e" kindref="member">StateThree::constructFromState</ref>(QObject<sp/>*form)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>QFormLayout<sp/>*formLayout<sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal">QFormLayout*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(form);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(formLayout<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QLabel<sp/>*labelTaxa<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>labelTaxa-&gt;setText(</highlight><highlight class="stringliteral">&quot;Renda<sp/>anual&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QLineEdit<sp/>*textEditTaxa<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLineEdit();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textEditTaxa-&gt;setObjectName(<ref refid="statethree_8h_1a5f9e3d212907aaf43fae456477abf81f" kindref="member">TEXT_EDIT_RENDA_ANUAL</ref>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textEditTaxa-&gt;setText(QString::number(rendaAnual));</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>formLayout-&gt;setWidget(0,QFormLayout::LabelRole,labelTaxa);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>formLayout-&gt;setWidget(0,QFormLayout::FieldRole,textEditTaxa);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QLabel<sp/>*labelValorInvestimento<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>labelValorInvestimento-&gt;setText(</highlight><highlight class="stringliteral">&quot;Valor<sp/>de<sp/>investimento&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QLineEdit<sp/>*textEditValorInvestimento<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLineEdit();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textEditValorInvestimento-&gt;setObjectName(<ref refid="statethree_8h_1a263d74f338148a71b57b7c1e7f2db146" kindref="member">TEXT_EDIT_VALOR_INVESTIMENTO</ref>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textEditValorInvestimento-&gt;setText(QString::number(valorInvestimento));</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>formLayout-&gt;setWidget(1,QFormLayout::LabelRole,labelValorInvestimento);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>formLayout-&gt;setWidget(1,QFormLayout::FieldRole,textEditValorInvestimento);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QLabel<sp/>*labelData<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>labelData-&gt;setText(</highlight><highlight class="stringliteral">&quot;Data<sp/>a<sp/>final<sp/>do<sp/>parcelamento&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QLineEdit<sp/>*textData<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLineEdit();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textData-&gt;setObjectName(<ref refid="statethree_8h_1aefde4966ca52a4121c82d36d84271fc5" kindref="member">TEXT_EDIT_DATA_FINAL_FINANCIAMENTO</ref>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textData-&gt;setText(dataFinalFinanciamento);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>formLayout-&gt;setWidget(2,QFormLayout::LabelRole,labelData);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>formLayout-&gt;setWidget(2,QFormLayout::FieldRole,textData);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="class_state_three_1aaf234d75e1a6ac12d0be2f019b5e7961" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_three_1aaf234d75e1a6ac12d0be2f019b5e7961" kindref="member">StateThree::getInformationAndSaveState</ref>(QObject<sp/>*form)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;rendaAnual<sp/>=<sp/>form-&gt;findChild&lt;QLineEdit*&gt;(<ref refid="statethree_8h_1a5f9e3d212907aaf43fae456477abf81f" kindref="member">TEXT_EDIT_RENDA_ANUAL</ref>)-&gt;text().toInt();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;valorInvestimento<sp/>=<sp/>form-&gt;findChild&lt;QLineEdit*&gt;(<ref refid="statethree_8h_1a263d74f338148a71b57b7c1e7f2db146" kindref="member">TEXT_EDIT_VALOR_INVESTIMENTO</ref>)-&gt;text().toDouble();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;dataFinalFinanciamento<sp/>=<sp/>form-&gt;findChild&lt;QLineEdit*&gt;(<ref refid="statethree_8h_1aefde4966ca52a4121c82d36d84271fc5" kindref="member">TEXT_EDIT_DATA_FINAL_FINANCIAMENTO</ref>)-&gt;text();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_state_three_1a20a7f1cbd330213845d43106abbb0e94" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_state_three_1a20a7f1cbd330213845d43106abbb0e94" kindref="member">StateThree::infoIsValid</ref>()</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="class_state_three_1acf601c9a74969865e09dc49ee496050e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_three_1acf601c9a74969865e09dc49ee496050e" kindref="member">StateThree::displayErroMsg</ref>()</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="class_state_three_1a2045f458debc5bfe040a56e7d5a86f28" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_state_three_1a2045f458debc5bfe040a56e7d5a86f28" kindref="member">StateThree::saveInContext</ref>()</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>QDate<sp/>date<sp/>=<sp/>QDate::fromString(this-&gt;dataFinalFinanciamento,<ref refid="statethree_8h_1a4bfa7eb4275cb482d55a08d76119b70a" kindref="member">DATE_STRING_FORMAT</ref>);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_investimento" kindref="compound">Investimento</ref>*<sp/>investimento<sp/>=<sp/><ref refid="class_investment_factory_1af7de72d70c49b5005d936d8e691f3a4e" kindref="member">InvestmentFactory::getInvestment</ref>(</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="class_investment_context_1ab8a4d7250517af915d518478740dab57" kindref="member">InvestmentContext::getInstance</ref>()-&gt;getInvestment(),</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;rendaAnual,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;valorInvestimento,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;date</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_investment_context_1ab8a4d7250517af915d518478740dab57" kindref="member">InvestmentContext::getInstance</ref>()-&gt;<ref refid="class_investment_context_1a1e7acfbfcdeda62cede130965a95b68a" kindref="member">setInvestimento</ref>(investimento);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="statethree.cpp"/>
+  </compounddef>
+</doxygen>

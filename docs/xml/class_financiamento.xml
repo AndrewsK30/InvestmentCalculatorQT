@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_financiamento" kind="class" language="C++" prot="public">
+    <compoundname>Financiamento</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="financiamento_8h" local="no">financiamento.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_financiamento_1a3518bbda6c7c19aa617e7c6d437f811f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Financiamento::numeroVezes</definition>
+        <argsstring></argsstring>
+        <name>numeroVezes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="financiamento.h" line="13" column="1" bodyfile="financiamento.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_financiamento_1a7d4dffa73c8840350cececcfe6905fa6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Financiamento::valorParcela</definition>
+        <argsstring></argsstring>
+        <name>valorParcela</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="financiamento.h" line="14" column="1" bodyfile="financiamento.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_financiamento_1a8aa6c64118c23e6fc332306ed4409bda" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Financiamento::valorTotalFinanciado</definition>
+        <argsstring></argsstring>
+        <name>valorTotalFinanciado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="financiamento.h" line="15" column="1" bodyfile="financiamento.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_financiamento_1adfc016aa85f201637210e55f2557ef4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Financiamento::Financiamento</definition>
+        <argsstring>(int nVezes, double vParcela)</argsstring>
+        <name>Financiamento</name>
+        <param>
+          <type>int</type>
+          <declname>nVezes</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>vParcela</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="financiamento.h" line="18" column="1" bodyfile="financiamento.cpp" bodystart="3" bodyend="8"/>
+        <references refid="class_financiamento_1aec7eab4faadc80d706c921aee3d1112e" compoundref="financiamento_8cpp" startline="10" endline="13">setNumeroVezes</references>
+        <references refid="class_financiamento_1a5c779d490e9b752b477383accc396e66" compoundref="financiamento_8cpp" startline="15" endline="18">setValorParcela</references>
+        <references refid="class_financiamento_1a2ca8fe5d8d518731147586b9ab381dfc" compoundref="financiamento_8cpp" startline="20" endline="23">setValorTotalFinanciado</references>
+      </memberdef>
+      <memberdef kind="function" id="class_financiamento_1a9089a0077784337a1e3368b661b65702" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Financiamento::getNumeroVezes</definition>
+        <argsstring>()</argsstring>
+        <name>getNumeroVezes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="financiamento.h" line="20" column="1" bodyfile="financiamento.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_financiamento_1a277b2fb2ca9f080987ce0854467487f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Financiamento::getValorParcela</definition>
+        <argsstring>()</argsstring>
+        <name>getValorParcela</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="financiamento.h" line="21" column="1" bodyfile="financiamento.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_financiamento_1a9d8fbce5220a3702c5eb0fdb612dea68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Financiamento::getValorTotalFinanciado</definition>
+        <argsstring>()</argsstring>
+        <name>getValorTotalFinanciado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="financiamento.h" line="22" column="1" bodyfile="financiamento.h" bodystart="22" bodyend="22"/>
+        <referencedby refid="class_simulacao_facade_1a8e7d6f1cb4b71baa0d37d27a6f642a41" compoundref="simulacaofacade_8cpp" startline="4" endline="23">SimulacaoFacade::compararInvestimentoEFinanciamento</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_financiamento_1aec7eab4faadc80d706c921aee3d1112e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Financiamento::setNumeroVezes</definition>
+        <argsstring>(int n)</argsstring>
+        <name>setNumeroVezes</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="financiamento.h" line="24" column="1" bodyfile="financiamento.cpp" bodystart="10" bodyend="13"/>
+        <referencedby refid="class_financiamento_1adfc016aa85f201637210e55f2557ef4b" compoundref="financiamento_8cpp" startline="3" endline="8">Financiamento</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_financiamento_1a5c779d490e9b752b477383accc396e66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Financiamento::setValorParcela</definition>
+        <argsstring>(double v)</argsstring>
+        <name>setValorParcela</name>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="financiamento.h" line="25" column="1" bodyfile="financiamento.cpp" bodystart="15" bodyend="18"/>
+        <referencedby refid="class_financiamento_1adfc016aa85f201637210e55f2557ef4b" compoundref="financiamento_8cpp" startline="3" endline="8">Financiamento</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_financiamento_1a2ca8fe5d8d518731147586b9ab381dfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Financiamento::setValorTotalFinanciado</definition>
+        <argsstring>(int nVezes, double vParcela)</argsstring>
+        <name>setValorTotalFinanciado</name>
+        <param>
+          <type>int</type>
+          <declname>nVezes</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>vParcela</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="financiamento.h" line="26" column="1" bodyfile="financiamento.cpp" bodystart="20" bodyend="23"/>
+        <referencedby refid="class_financiamento_1adfc016aa85f201637210e55f2557ef4b" compoundref="financiamento_8cpp" startline="3" endline="8">Financiamento</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="2">
+        <label>Financiamento</label>
+        <link refid="class_financiamento"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>QObject</label>
+      </node>
+      <node id="4">
+        <label>Financiamento</label>
+        <link refid="class_financiamento"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="financiamento.h" line="9" column="1" bodyfile="financiamento.h" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_financiamento_1adfc016aa85f201637210e55f2557ef4b" prot="public" virt="non-virtual"><scope>Financiamento</scope><name>Financiamento</name></member>
+      <member refid="class_financiamento_1a9089a0077784337a1e3368b661b65702" prot="public" virt="non-virtual"><scope>Financiamento</scope><name>getNumeroVezes</name></member>
+      <member refid="class_financiamento_1a277b2fb2ca9f080987ce0854467487f6" prot="public" virt="non-virtual"><scope>Financiamento</scope><name>getValorParcela</name></member>
+      <member refid="class_financiamento_1a9d8fbce5220a3702c5eb0fdb612dea68" prot="public" virt="non-virtual"><scope>Financiamento</scope><name>getValorTotalFinanciado</name></member>
+      <member refid="class_financiamento_1a3518bbda6c7c19aa617e7c6d437f811f" prot="private" virt="non-virtual"><scope>Financiamento</scope><name>numeroVezes</name></member>
+      <member refid="class_financiamento_1aec7eab4faadc80d706c921aee3d1112e" prot="public" virt="non-virtual"><scope>Financiamento</scope><name>setNumeroVezes</name></member>
+      <member refid="class_financiamento_1a5c779d490e9b752b477383accc396e66" prot="public" virt="non-virtual"><scope>Financiamento</scope><name>setValorParcela</name></member>
+      <member refid="class_financiamento_1a2ca8fe5d8d518731147586b9ab381dfc" prot="public" virt="non-virtual"><scope>Financiamento</scope><name>setValorTotalFinanciado</name></member>
+      <member refid="class_financiamento_1a7d4dffa73c8840350cececcfe6905fa6" prot="private" virt="non-virtual"><scope>Financiamento</scope><name>valorParcela</name></member>
+      <member refid="class_financiamento_1a8aa6c64118c23e6fc332306ed4409bda" prot="private" virt="non-virtual"><scope>Financiamento</scope><name>valorTotalFinanciado</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

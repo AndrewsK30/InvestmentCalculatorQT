@@ -24,7 +24,7 @@ void StateThree::constructFromState(QObject *form)
 
         QLineEdit *textEditTaxa = new QLineEdit();
         textEditTaxa->setObjectName(TEXT_EDIT_RENDA_ANUAL);
-        textEditTaxa->setText(QString::number(rendaAnual));
+        textEditTaxa->setText(QString::number(rendaAnual*100));
 
         formLayout->setWidget(0,QFormLayout::LabelRole,labelTaxa);
         formLayout->setWidget(0,QFormLayout::FieldRole,textEditTaxa);
@@ -56,7 +56,7 @@ void StateThree::constructFromState(QObject *form)
 
 void StateThree::getInformationAndSaveState(QObject *form)
 {
-    this->rendaAnual = form->findChild<QLineEdit*>(TEXT_EDIT_RENDA_ANUAL)->text().toInt();
+    this->rendaAnual = form->findChild<QLineEdit*>(TEXT_EDIT_RENDA_ANUAL)->text().toDouble()/100;
     this->valorInvestimento = form->findChild<QLineEdit*>(TEXT_EDIT_VALOR_INVESTIMENTO)->text().toDouble();
     this->dataFinalFinanciamento = form->findChild<QLineEdit*>(TEXT_EDIT_DATA_FINAL_FINANCIAMENTO)->text();
 }

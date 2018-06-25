@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_investment_factory" kind="class" language="C++" prot="public">
+    <compoundname>InvestmentFactory</compoundname>
+    <includes refid="investmentfactory_8h" local="no">investmentfactory.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_investment_factory_1a55a46d135179359d6b1d7a0ef78710fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>InvestmentFactory::InvestmentFactory</definition>
+        <argsstring>()</argsstring>
+        <name>InvestmentFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentfactory.h" line="11" column="1" bodyfile="investmentfactory.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_investment_factory_1af7de72d70c49b5005d936d8e691f3a4e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_investimento" kindref="compound">Investimento</ref> *</type>
+        <definition>Investimento * InvestmentFactory::getInvestment</definition>
+        <argsstring>(QString investmentType, double rAnual, double vInvestido, QDate *dtRetorno)</argsstring>
+        <name>getInvestment</name>
+        <param>
+          <type>QString</type>
+          <declname>investmentType</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rAnual</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>vInvestido</declname>
+        </param>
+        <param>
+          <type>QDate *</type>
+          <declname>dtRetorno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investmentfactory.h" line="12" column="1" bodyfile="investmentfactory.cpp" bodystart="10" bodyend="19"/>
+        <referencedby refid="class_state_three_1a2045f458debc5bfe040a56e7d5a86f28" compoundref="statethree_8cpp" startline="74" endline="85">StateThree::saveInContext</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="17">
+        <label>InvestmentFactory</label>
+        <link refid="class_investment_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="investmentfactory.h" line="9" column="1" bodyfile="investmentfactory.h" bodystart="8" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_investment_factory_1af7de72d70c49b5005d936d8e691f3a4e" prot="public" virt="non-virtual"><scope>InvestmentFactory</scope><name>getInvestment</name></member>
+      <member refid="class_investment_factory_1a55a46d135179359d6b1d7a0ef78710fe" prot="public" virt="non-virtual"><scope>InvestmentFactory</scope><name>InvestmentFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

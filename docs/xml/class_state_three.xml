@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_state_three" kind="class" language="C++" prot="public">
+    <compoundname>StateThree</compoundname>
+    <basecompoundref refid="class_state" prot="public" virt="non-virtual">State</basecompoundref>
+    <includes refid="statethree_8h" local="no">statethree.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_state_three_1a8070001d537d960aeba17f9c5c6354b7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double StateThree::rendaAnual</definition>
+        <argsstring></argsstring>
+        <name>rendaAnual</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="17" column="1" bodyfile="statethree.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_state_three_1af8b1d9b3e7af5a5be64c4cc6ceeeb5fa" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double StateThree::valorInvestimento</definition>
+        <argsstring></argsstring>
+        <name>valorInvestimento</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="18" column="1" bodyfile="statethree.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_state_three_1ab85505f0a61279430fb96a66b5794dab" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString StateThree::dataFinalFinanciamento</definition>
+        <argsstring></argsstring>
+        <name>dataFinalFinanciamento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="19" column="1" bodyfile="statethree.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_state_three_1a4658d76ab166f6b2fd55af19d5b82759" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StateThree::StateThree</definition>
+        <argsstring>()</argsstring>
+        <name>StateThree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="22" column="1" bodyfile="statethree.cpp" bodystart="11" bodyend="15"/>
+        <references refid="statethree_8h_1a4bfa7eb4275cb482d55a08d76119b70a" compoundref="statethree_8h" startline="13">DATE_STRING_FORMAT</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_state_three_1a629420abe5485db5fc7793d80494353e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StateThree::constructFromState</definition>
+        <argsstring>(QObject *form)</argsstring>
+        <name>constructFromState</name>
+        <reimplements refid="class_state_1a83742a76f279ed90fec9dd662c10e3b5">constructFromState</reimplements>
+        <param>
+          <type>QObject *</type>
+          <declname>form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="26" column="1" bodyfile="statethree.cpp" bodystart="17" bodyend="55"/>
+        <references refid="statethree_8h_1a5f9e3d212907aaf43fae456477abf81f" compoundref="statethree_8h" startline="10">TEXT_EDIT_RENDA_ANUAL</references>
+        <references refid="statethree_8h_1a263d74f338148a71b57b7c1e7f2db146" compoundref="statethree_8h" startline="11">TEXT_EDIT_VALOR_INVESTIMENTO</references>
+        <references refid="statethree_8h_1aefde4966ca52a4121c82d36d84271fc5" compoundref="statethree_8h" startline="12">TEXT_EDIT_DATA_FINAL_FINANCIAMENTO</references>
+      </memberdef>
+      <memberdef kind="function" id="class_state_three_1aaf234d75e1a6ac12d0be2f019b5e7961" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StateThree::getInformationAndSaveState</definition>
+        <argsstring>(QObject *form)</argsstring>
+        <name>getInformationAndSaveState</name>
+        <reimplements refid="class_state_1ac1ce8d14817ed7e73fe6c9cb52138059">getInformationAndSaveState</reimplements>
+        <param>
+          <type>QObject *</type>
+          <declname>form</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="27" column="1" bodyfile="statethree.cpp" bodystart="57" bodyend="62"/>
+        <references refid="statethree_8h_1a5f9e3d212907aaf43fae456477abf81f" compoundref="statethree_8h" startline="10">TEXT_EDIT_RENDA_ANUAL</references>
+        <references refid="statethree_8h_1a263d74f338148a71b57b7c1e7f2db146" compoundref="statethree_8h" startline="11">TEXT_EDIT_VALOR_INVESTIMENTO</references>
+        <references refid="statethree_8h_1aefde4966ca52a4121c82d36d84271fc5" compoundref="statethree_8h" startline="12">TEXT_EDIT_DATA_FINAL_FINANCIAMENTO</references>
+      </memberdef>
+      <memberdef kind="function" id="class_state_three_1a20a7f1cbd330213845d43106abbb0e94" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool StateThree::infoIsValid</definition>
+        <argsstring>()</argsstring>
+        <name>infoIsValid</name>
+        <reimplements refid="class_state_1a24c0c03b0e0ae455f6fa4147c0a9b50c">infoIsValid</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="28" column="1" bodyfile="statethree.cpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_state_three_1acf601c9a74969865e09dc49ee496050e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StateThree::displayErroMsg</definition>
+        <argsstring>()</argsstring>
+        <name>displayErroMsg</name>
+        <reimplements refid="class_state_1a7c2060b170abf8d929d14ef257a7dd79">displayErroMsg</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="29" column="1" bodyfile="statethree.cpp" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_state_three_1a2045f458debc5bfe040a56e7d5a86f28" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void StateThree::saveInContext</definition>
+        <argsstring>()</argsstring>
+        <name>saveInContext</name>
+        <reimplements refid="class_state_1a38b841d6fc5f6b26d6e5a7d1efdf4524">saveInContext</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statethree.h" line="33" column="1" bodyfile="statethree.cpp" bodystart="74" bodyend="85"/>
+        <references refid="statethree_8h_1a4bfa7eb4275cb482d55a08d76119b70a" compoundref="statethree_8h" startline="13">DATE_STRING_FORMAT</references>
+        <references refid="class_investment_factory_1af7de72d70c49b5005d936d8e691f3a4e" compoundref="investmentfactory_8cpp" startline="10" endline="19">InvestmentFactory::getInvestment</references>
+        <references refid="class_investment_context_1ab8a4d7250517af915d518478740dab57" compoundref="investmentcontext_8h" startline="22" endline="29">InvestmentContext::getInstance</references>
+        <references refid="class_investment_context_1a1e7acfbfcdeda62cede130965a95b68a" compoundref="investmentcontext_8cpp" startline="21" endline="24">InvestmentContext::setInvestimento</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="54">
+        <label>StateThree</label>
+        <link refid="class_state_three"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>State</label>
+        <link refid="class_state"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="56">
+        <label>StateThree</label>
+        <link refid="class_state_three"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>State</label>
+        <link refid="class_state"/>
+      </node>
+    </collaborationgraph>
+    <location file="statethree.h" line="16" column="1" bodyfile="statethree.h" bodystart="15" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_state_1adc3efce8b999ab26f4584d316f6b177b" prot="public" virt="non-virtual"><scope>StateThree</scope><name>canGoNextState</name></member>
+      <member refid="class_state_1aa4ddeb49e1ff1207ce99331f13db53ff" prot="public" virt="non-virtual"><scope>StateThree</scope><name>construct</name></member>
+      <member refid="class_state_three_1a629420abe5485db5fc7793d80494353e" prot="protected" virt="virtual"><scope>StateThree</scope><name>constructFromState</name></member>
+      <member refid="class_state_three_1ab85505f0a61279430fb96a66b5794dab" prot="private" virt="non-virtual"><scope>StateThree</scope><name>dataFinalFinanciamento</name></member>
+      <member refid="class_state_three_1acf601c9a74969865e09dc49ee496050e" prot="protected" virt="virtual"><scope>StateThree</scope><name>displayErroMsg</name></member>
+      <member refid="class_state_three_1aaf234d75e1a6ac12d0be2f019b5e7961" prot="protected" virt="virtual"><scope>StateThree</scope><name>getInformationAndSaveState</name></member>
+      <member refid="class_state_three_1a20a7f1cbd330213845d43106abbb0e94" prot="protected" virt="virtual"><scope>StateThree</scope><name>infoIsValid</name></member>
+      <member refid="class_state_three_1a8070001d537d960aeba17f9c5c6354b7" prot="private" virt="non-virtual"><scope>StateThree</scope><name>rendaAnual</name></member>
+      <member refid="class_state_three_1a2045f458debc5bfe040a56e7d5a86f28" prot="protected" virt="virtual"><scope>StateThree</scope><name>saveInContext</name></member>
+      <member refid="class_state_1ab91bb1dd5aa6260ab2a456581daf9ec2" prot="protected" virt="non-virtual"><scope>StateThree</scope><name>State</name></member>
+      <member refid="class_state_three_1a4658d76ab166f6b2fd55af19d5b82759" prot="public" virt="non-virtual"><scope>StateThree</scope><name>StateThree</name></member>
+      <member refid="class_state_three_1af8b1d9b3e7af5a5be64c4cc6ceeeb5fa" prot="private" virt="non-virtual"><scope>StateThree</scope><name>valorInvestimento</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

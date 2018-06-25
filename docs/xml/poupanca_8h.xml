@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="poupanca_8h" kind="file" language="C++">
+    <compoundname>poupanca.h</compoundname>
+    <includes local="no">QObject</includes>
+    <includes refid="investimento_8h" local="yes">investimento.h</includes>
+    <includedby refid="investmentfactory_8cpp" local="yes">investmentfactory.cpp</includedby>
+    <includedby refid="poupanca_8cpp" local="yes">poupanca.cpp</includedby>
+    <incdepgraph>
+      <node id="185">
+        <label>QObject</label>
+      </node>
+      <node id="184">
+        <label>poupanca.h</label>
+        <link refid="poupanca_8h"/>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>QDate</label>
+      </node>
+      <node id="186">
+        <label>investimento.h</label>
+        <link refid="investimento_8h"/>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="189">
+        <label>investmentfactory.cpp</label>
+        <link refid="investmentfactory_8cpp"/>
+      </node>
+      <node id="188">
+        <label>poupanca.h</label>
+        <link refid="poupanca_8h"/>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>poupanca.cpp</label>
+        <link refid="poupanca_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_poupanca" prot="public">Poupanca</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>POUPANCA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>POUPANCA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="investimento_8h" kindref="compound">investimento.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_poupanca" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_poupanca" kindref="compound">Poupanca</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_investimento" kindref="compound">Investimento</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>deduzirImposto(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorFinalSemImposto,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorRendido);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_poupanca" kindref="compound">Poupanca</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rAnual,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vInvestido,<sp/>QDate*<sp/>dtRetorno);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>POUPANCA_H</highlight></codeline>
+    </programlisting>
+    <location file="poupanca.h"/>
+  </compounddef>
+</doxygen>

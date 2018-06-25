@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_care_taker" kind="class" language="C++" prot="public">
+    <compoundname>CareTaker</compoundname>
+    <includes refid="caretaker_8h" local="no">caretaker.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_care_taker_1a182282b127a8d1a59e5caf3ff4e6bb27" prot="private" static="no" mutable="no">
+        <type>QStack&lt; <ref refid="class_memento" kindref="compound">Memento</ref> * &gt;</type>
+        <definition>QStack&lt;Memento*&gt; CareTaker::mementoList</definition>
+        <argsstring></argsstring>
+        <name>mementoList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="caretaker.h" line="12" column="1" bodyfile="caretaker.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_care_taker_1adca80c6eff9968b8fed0414c749a5288" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CareTaker::CareTaker</definition>
+        <argsstring>()</argsstring>
+        <name>CareTaker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="caretaker.h" line="15" column="1" bodyfile="caretaker.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_care_taker_1a936c25815b40aa32e21a98a9ce44a96c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CareTaker::add</definition>
+        <argsstring>(Memento *state)</argsstring>
+        <name>add</name>
+        <param>
+          <type><ref refid="class_memento" kindref="compound">Memento</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="caretaker.h" line="16" column="1" bodyfile="caretaker.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_care_taker_1acf06713ee4543c3d1119b66c3a29024b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_memento" kindref="compound">Memento</ref> *</type>
+        <definition>Memento * CareTaker::undo</definition>
+        <argsstring>()</argsstring>
+        <name>undo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="caretaker.h" line="17" column="1" bodyfile="caretaker.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CareTaker</label>
+        <link refid="class_care_taker"/>
+      </node>
+    </collaborationgraph>
+    <location file="caretaker.h" line="11" column="1" bodyfile="caretaker.h" bodystart="10" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_care_taker_1a936c25815b40aa32e21a98a9ce44a96c" prot="public" virt="non-virtual"><scope>CareTaker</scope><name>add</name></member>
+      <member refid="class_care_taker_1adca80c6eff9968b8fed0414c749a5288" prot="public" virt="non-virtual"><scope>CareTaker</scope><name>CareTaker</name></member>
+      <member refid="class_care_taker_1a182282b127a8d1a59e5caf3ff4e6bb27" prot="private" virt="non-virtual"><scope>CareTaker</scope><name>mementoList</name></member>
+      <member refid="class_care_taker_1acf06713ee4543c3d1119b66c3a29024b" prot="public" virt="non-virtual"><scope>CareTaker</scope><name>undo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

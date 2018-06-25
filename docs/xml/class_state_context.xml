@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_state_context" kind="class" language="C++" prot="public">
+    <compoundname>StateContext</compoundname>
+    <includes refid="statecontext_8h" local="no">statecontext.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_state_context_1a08534a7b5cf81cc742256c9e69199356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StateContext::StateContext</definition>
+        <argsstring>()</argsstring>
+        <name>StateContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="statecontext.h" line="8" column="1" bodyfile="statecontext.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="43">
+        <label>StateContext</label>
+        <link refid="class_state_context"/>
+      </node>
+    </collaborationgraph>
+    <location file="statecontext.h" line="6" column="1" bodyfile="statecontext.h" bodystart="5" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_state_context_1a08534a7b5cf81cc742256c9e69199356" prot="public" virt="non-virtual"><scope>StateContext</scope><name>StateContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

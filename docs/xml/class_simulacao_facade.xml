@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_simulacao_facade" kind="class" language="C++" prot="public">
+    <compoundname>SimulacaoFacade</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <includes refid="simulacaofacade_8h" local="no">simulacaofacade.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_simulacao_facade_1a8e7d6f1cb4b71baa0d37d27a6f642a41" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString SimulacaoFacade::compararInvestimentoEFinanciamento</definition>
+        <argsstring>(Investimento *investimento, Financiamento *financiamento)</argsstring>
+        <name>compararInvestimentoEFinanciamento</name>
+        <param>
+          <type><ref refid="class_investimento" kindref="compound">Investimento</ref> *</type>
+          <declname>investimento</declname>
+        </param>
+        <param>
+          <type><ref refid="class_financiamento" kindref="compound">Financiamento</ref> *</type>
+          <declname>financiamento</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="simulacaofacade.h" line="18" column="1" bodyfile="simulacaofacade.cpp" bodystart="4" bodyend="23"/>
+        <references refid="class_financiamento_1a9d8fbce5220a3702c5eb0fdb612dea68" compoundref="financiamento_8h" startline="22" endline="22">Financiamento::getValorTotalFinanciado</references>
+        <references refid="class_investimento_1a5bc808f2a784def7d3361ce3c74ff366" compoundref="investimento_8cpp" startline="57" endline="66">Investimento::calcular</references>
+        <referencedby refid="class_state_four_1a06d81d6438922f4203ce085898191b2b" compoundref="statefour_8cpp" startline="13" endline="26">StateFour::constructFromState</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>QObject</label>
+      </node>
+      <node id="32">
+        <label>SimulacaoFacade</label>
+        <link refid="class_simulacao_facade"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>QObject</label>
+      </node>
+      <node id="34">
+        <label>SimulacaoFacade</label>
+        <link refid="class_simulacao_facade"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="simulacaofacade.h" line="12" column="1" bodyfile="simulacaofacade.h" bodystart="11" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_simulacao_facade_1a8e7d6f1cb4b71baa0d37d27a6f642a41" prot="public" virt="non-virtual"><scope>SimulacaoFacade</scope><name>compararInvestimentoEFinanciamento</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

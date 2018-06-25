@@ -1,0 +1,22 @@
+<map id="state.h" name="state.h">
+<area shape="rect" id="node2" href="$memento_8h.html" title="memento.h" alt="" coords="173,79,261,104"/>
+<area shape="rect" id="node8" href="$originator_8h.html" title="originator.h" alt="" coords="268,152,356,177"/>
+<area shape="rect" id="node11" href="$statefactory_8h.html" title="statefactory.h" alt="" coords="520,79,621,104"/>
+<area shape="rect" id="node13" href="$stateone_8h.html" title="stateone.h" alt="" coords="413,79,496,104"/>
+<area shape="rect" id="node15" href="$state_8cpp.html" title="state.cpp" alt="" coords="974,79,1050,104"/>
+<area shape="rect" id="node16" href="$statefour_8h.html" title="statefour.h" alt="" coords="645,79,728,104"/>
+<area shape="rect" id="node18" href="$statethree_8h.html" title="statethree.h" alt="" coords="753,79,845,104"/>
+<area shape="rect" id="node20" href="$statetwo_8h.html" title="statetwo.h" alt="" coords="868,79,950,104"/>
+<area shape="rect" id="node3" href="$caretaker_8h.html" title="caretaker.h" alt="" coords="31,152,118,177"/>
+<area shape="rect" id="node10" href="$memento_8cpp.html" title="memento.cpp" alt="" coords="142,152,244,177"/>
+<area shape="rect" id="node4" href="$caretaker_8cpp.html" title="caretaker.cpp" alt="" coords="5,225,107,251"/>
+<area shape="rect" id="node5" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="130,225,235,251"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="main.cpp" alt="" coords="145,299,220,324"/>
+<area shape="rect" id="node7" href="$mainwindow_8cpp.html" title="mainwindow.cpp" alt="" coords="338,299,457,324"/>
+<area shape="rect" id="node9" href="$originator_8cpp.html" title="originator.cpp" alt="" coords="259,225,360,251"/>
+<area shape="rect" id="node12" href="$statefactory_8cpp.html" title="statefactory.cpp" alt="" coords="608,152,723,177"/>
+<area shape="rect" id="node14" href="$stateone_8cpp.html" title="stateone.cpp" alt="" coords="435,152,533,177"/>
+<area shape="rect" id="node17" href="$statefour_8cpp.html" title="statefour.cpp" alt="" coords="747,152,845,177"/>
+<area shape="rect" id="node19" href="$statethree_8cpp.html" title="statethree.cpp" alt="" coords="868,152,974,177"/>
+<area shape="rect" id="node21" href="$statetwo_8cpp.html" title="statetwo.cpp" alt="" coords="999,152,1095,177"/>
+</map>

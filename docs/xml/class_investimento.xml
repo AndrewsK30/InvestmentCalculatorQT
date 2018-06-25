@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_investimento" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Investimento</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <derivedcompoundref refid="class_poupanca" prot="public" virt="non-virtual">Poupanca</derivedcompoundref>
+    <derivedcompoundref refid="class_tesouro_selic" prot="public" virt="non-virtual">TesouroSelic</derivedcompoundref>
+    <includes refid="investimento_8h" local="no">investimento.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_investimento_1a2ec3ecb3f07b052041690970a707265e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Investimento::rendimentoAnual</definition>
+        <argsstring></argsstring>
+        <name>rendimentoAnual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="14" column="1" bodyfile="investimento.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_investimento_1a291cffa18dbcc30530607df3729a2892" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Investimento::valorInvestido</definition>
+        <argsstring></argsstring>
+        <name>valorInvestido</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="15" column="1" bodyfile="investimento.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_investimento_1a7404f3e8d6af4eac0405024b8c6a7357" prot="private" static="no" mutable="no">
+        <type>QDate *</type>
+        <definition>QDate* Investimento::dataRetorno</definition>
+        <argsstring></argsstring>
+        <name>dataRetorno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="16" column="1" bodyfile="investimento.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_investimento_1a2091617cc1c57f09a863a3ce7bb934c6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Investimento::calcularRendimentoMensal</definition>
+        <argsstring>()</argsstring>
+        <name>calcularRendimentoMensal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="18" column="1" bodyfile="investimento.cpp" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investimento_1a3b7941de24a2d92ae2a1a841c2b921c1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Investimento::calcularNumeroMesesInvestimento</definition>
+        <argsstring>()</argsstring>
+        <name>calcularNumeroMesesInvestimento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="19" column="1" bodyfile="investimento.cpp" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investimento_1a28b4fd0298b574bacc4447fbf7633bea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Investimento::calcularRetorno</definition>
+        <argsstring>(double valorRendido)</argsstring>
+        <name>calcularRetorno</name>
+        <param>
+          <type>double</type>
+          <declname>valorRendido</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="20" column="1" bodyfile="investimento.cpp" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investimento_1a99a838c517ab0ab5ec9a3901b8b00ce6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Investimento::calcularValorRendido</definition>
+        <argsstring>(double rendimentoMensal, int numeroMesesInvestimento)</argsstring>
+        <name>calcularValorRendido</name>
+        <param>
+          <type>double</type>
+          <declname>rendimentoMensal</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numeroMesesInvestimento</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="21" column="1" bodyfile="investimento.cpp" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investimento_1a082ac800ef52d7b6a6facb3f69bf8a3a" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double Investimento::deduzirImposto</definition>
+        <argsstring>(double valorFinalSemImposto, double valorRendido)=0</argsstring>
+        <name>deduzirImposto</name>
+        <reimplementedby refid="class_tesouro_selic_1ad4978a5efa2cb8f435b98443996ae991">deduzirImposto</reimplementedby>
+        <reimplementedby refid="class_poupanca_1aa285da086340cf02f1dd5fda6a218a53">deduzirImposto</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>valorFinalSemImposto</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>valorRendido</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="22" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_investimento_1a753b2d9ce733291af14da400f3cf7004" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Investimento::Investimento</definition>
+        <argsstring>(double rAnual, double vInvestido, QDate *dtRetorno)</argsstring>
+        <name>Investimento</name>
+        <param>
+          <type>double</type>
+          <declname>rAnual</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>vInvestido</declname>
+        </param>
+        <param>
+          <type>QDate *</type>
+          <declname>dtRetorno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="25" column="1" bodyfile="investimento.cpp" bodystart="6" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investimento_1a3e8d87b509b93e84b90364a6ed11df1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Investimento::getRendimentoAnual</definition>
+        <argsstring>()</argsstring>
+        <name>getRendimentoAnual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="27" column="1" bodyfile="investimento.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investimento_1adaec8da4168bb06120e3115d386b60f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Investimento::getValorInvestido</definition>
+        <argsstring>()</argsstring>
+        <name>getValorInvestido</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="28" column="1" bodyfile="investimento.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investimento_1ac294d5312c077eccfa73e63fbdb3853e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QDate *</type>
+        <definition>QDate* Investimento::getDataRetorno</definition>
+        <argsstring>()</argsstring>
+        <name>getDataRetorno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="29" column="1" bodyfile="investimento.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investimento_1af281c444e8919fa9e6b886839e82a121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Investimento::setRendimentoAnual</definition>
+        <argsstring>(double r)</argsstring>
+        <name>setRendimentoAnual</name>
+        <param>
+          <type>double</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="31" column="1" bodyfile="investimento.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investimento_1af2e4c34d7bc868d2746ca29aa92ddf75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Investimento::setValorInvestido</definition>
+        <argsstring>(double v)</argsstring>
+        <name>setValorInvestido</name>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="32" column="1" bodyfile="investimento.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investimento_1a2cbdce10b5c9cbaa9f9300c61ac4dee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Investimento::setDataRetorno</definition>
+        <argsstring>(QDate *dt)</argsstring>
+        <name>setDataRetorno</name>
+        <param>
+          <type>QDate *</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="33" column="1" bodyfile="investimento.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_investimento_1a5bc808f2a784def7d3361ce3c74ff366" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Investimento::calcular</definition>
+        <argsstring>()</argsstring>
+        <name>calcular</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="investimento.h" line="35" column="1" bodyfile="investimento.cpp" bodystart="57" bodyend="66"/>
+        <referencedby refid="class_simulacao_facade_1a8e7d6f1cb4b71baa0d37d27a6f642a41" compoundref="simulacaofacade_8cpp" startline="4" endline="23">SimulacaoFacade::compararInvestimentoEFinanciamento</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="11">
+        <label>TesouroSelic</label>
+        <link refid="class_tesouro_selic"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>QObject</label>
+      </node>
+      <node id="8">
+        <label>Investimento</label>
+        <link refid="class_investimento"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Poupanca</label>
+        <link refid="class_poupanca"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>QObject</label>
+      </node>
+      <node id="12">
+        <label>Investimento</label>
+        <link refid="class_investimento"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="investimento.h" line="10" column="1" bodyfile="investimento.h" bodystart="9" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_investimento_1a5bc808f2a784def7d3361ce3c74ff366" prot="public" virt="non-virtual"><scope>Investimento</scope><name>calcular</name></member>
+      <member refid="class_investimento_1a3b7941de24a2d92ae2a1a841c2b921c1" prot="private" virt="non-virtual"><scope>Investimento</scope><name>calcularNumeroMesesInvestimento</name></member>
+      <member refid="class_investimento_1a2091617cc1c57f09a863a3ce7bb934c6" prot="private" virt="non-virtual"><scope>Investimento</scope><name>calcularRendimentoMensal</name></member>
+      <member refid="class_investimento_1a28b4fd0298b574bacc4447fbf7633bea" prot="private" virt="non-virtual"><scope>Investimento</scope><name>calcularRetorno</name></member>
+      <member refid="class_investimento_1a99a838c517ab0ab5ec9a3901b8b00ce6" prot="private" virt="non-virtual"><scope>Investimento</scope><name>calcularValorRendido</name></member>
+      <member refid="class_investimento_1a7404f3e8d6af4eac0405024b8c6a7357" prot="private" virt="non-virtual"><scope>Investimento</scope><name>dataRetorno</name></member>
+      <member refid="class_investimento_1a082ac800ef52d7b6a6facb3f69bf8a3a" prot="private" virt="pure-virtual"><scope>Investimento</scope><name>deduzirImposto</name></member>
+      <member refid="class_investimento_1ac294d5312c077eccfa73e63fbdb3853e" prot="public" virt="non-virtual"><scope>Investimento</scope><name>getDataRetorno</name></member>
+      <member refid="class_investimento_1a3e8d87b509b93e84b90364a6ed11df1a" prot="public" virt="non-virtual"><scope>Investimento</scope><name>getRendimentoAnual</name></member>
+      <member refid="class_investimento_1adaec8da4168bb06120e3115d386b60f4" prot="public" virt="non-virtual"><scope>Investimento</scope><name>getValorInvestido</name></member>
+      <member refid="class_investimento_1a753b2d9ce733291af14da400f3cf7004" prot="public" virt="non-virtual"><scope>Investimento</scope><name>Investimento</name></member>
+      <member refid="class_investimento_1a2ec3ecb3f07b052041690970a707265e" prot="private" virt="non-virtual"><scope>Investimento</scope><name>rendimentoAnual</name></member>
+      <member refid="class_investimento_1a2cbdce10b5c9cbaa9f9300c61ac4dee1" prot="public" virt="non-virtual"><scope>Investimento</scope><name>setDataRetorno</name></member>
+      <member refid="class_investimento_1af281c444e8919fa9e6b886839e82a121" prot="public" virt="non-virtual"><scope>Investimento</scope><name>setRendimentoAnual</name></member>
+      <member refid="class_investimento_1af2e4c34d7bc868d2746ca29aa92ddf75" prot="public" virt="non-virtual"><scope>Investimento</scope><name>setValorInvestido</name></member>
+      <member refid="class_investimento_1a291cffa18dbcc30530607df3729a2892" prot="private" virt="non-virtual"><scope>Investimento</scope><name>valorInvestido</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

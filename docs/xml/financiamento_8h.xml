@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="financiamento_8h" kind="file" language="C++">
+    <compoundname>financiamento.h</compoundname>
+    <includes local="no">QObject</includes>
+    <includedby refid="financiamento_8cpp" local="yes">financiamento.cpp</includedby>
+    <includedby refid="investmentcontext_8h" local="yes">investmentcontext.h</includedby>
+    <includedby refid="simulacaofacade_8h" local="yes">simulacaofacade.h</includedby>
+    <includedby refid="stateone_8cpp" local="yes">stateone.cpp</includedby>
+    <incdepgraph>
+      <node id="26">
+        <label>QObject</label>
+      </node>
+      <node id="25">
+        <label>financiamento.h</label>
+        <link refid="financiamento_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="29">
+        <label>investmentcontext.h</label>
+        <link refid="investmentcontext_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>investmentcontext.cpp</label>
+        <link refid="investmentcontext_8cpp"/>
+      </node>
+      <node id="35">
+        <label>simulacaofacade.h</label>
+        <link refid="simulacaofacade_8h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>stateone.cpp</label>
+        <link refid="stateone_8cpp"/>
+      </node>
+      <node id="28">
+        <label>financiamento.cpp</label>
+        <link refid="financiamento_8cpp"/>
+      </node>
+      <node id="27">
+        <label>financiamento.h</label>
+        <link refid="financiamento_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>statethree.cpp</label>
+        <link refid="statethree_8cpp"/>
+      </node>
+      <node id="36">
+        <label>simulacaofacade.cpp</label>
+        <link refid="simulacaofacade_8cpp"/>
+      </node>
+      <node id="34">
+        <label>statetwo.cpp</label>
+        <link refid="statetwo_8cpp"/>
+      </node>
+      <node id="31">
+        <label>statefour.cpp</label>
+        <link refid="statefour_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_financiamento" prot="public">Financiamento</innerclass>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>FINANCIAMENTO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FINANCIAMENTO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_financiamento" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_financiamento" kindref="compound">Financiamento</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QObject</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numeroVezes;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorParcela;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valorTotalFinanciado;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_financiamento" kindref="compound">Financiamento</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nVezes,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vParcela);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_financiamento_1a9089a0077784337a1e3368b661b65702" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_financiamento_1a9089a0077784337a1e3368b661b65702" kindref="member">getNumeroVezes</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>numeroVezes;<sp/>}</highlight></codeline>
+<codeline lineno="21" refid="class_financiamento_1a277b2fb2ca9f080987ce0854467487f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_financiamento_1a277b2fb2ca9f080987ce0854467487f6" kindref="member">getValorParcela</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>valorParcela;<sp/>}</highlight></codeline>
+<codeline lineno="22" refid="class_financiamento_1a9d8fbce5220a3702c5eb0fdb612dea68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_financiamento_1a9d8fbce5220a3702c5eb0fdb612dea68" kindref="member">getValorTotalFinanciado</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>valorTotalFinanciado;<sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setNumeroVezes(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setValorParcela(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setValorTotalFinanciado(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nVezes,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vParcela);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>FINANCIAMENTO_H</highlight></codeline>
+    </programlisting>
+    <location file="financiamento.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="caretaker_8cpp" kind="file" language="C++">
+    <compoundname>caretaker.cpp</compoundname>
+    <includes refid="caretaker_8h" local="yes">caretaker.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>QObject</label>
+      </node>
+      <node id="5">
+        <label>QStack</label>
+      </node>
+      <node id="3">
+        <label>state.h</label>
+        <link refid="state_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>caretaker.h</label>
+        <link refid="caretaker_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>caretaker.cpp</label>
+        <link refid="caretaker_8cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>memento.h</label>
+        <link refid="memento_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="caretaker_8h" kindref="compound">caretaker.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_care_taker_1adca80c6eff9968b8fed0414c749a5288" refkind="member"><highlight class="normal"><ref refid="class_care_taker_1adca80c6eff9968b8fed0414c749a5288" kindref="member">CareTaker::CareTaker</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_care_taker_1a936c25815b40aa32e21a98a9ce44a96c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_care_taker_1a936c25815b40aa32e21a98a9ce44a96c" kindref="member">CareTaker::add</ref>(<ref refid="class_memento" kindref="compound">Memento</ref><sp/>*state)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>mementoList.append(state);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_care_taker_1acf06713ee4543c3d1119b66c3a29024b" refkind="member"><highlight class="normal"><ref refid="class_memento" kindref="compound">Memento</ref>*<sp/><ref refid="class_care_taker_1acf06713ee4543c3d1119b66c3a29024b" kindref="member">CareTaker::undo</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mementoList.pop();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="caretaker.cpp"/>
+  </compounddef>
+</doxygen>

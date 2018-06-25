@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_memento" kind="class" language="C++" prot="public">
+    <compoundname>Memento</compoundname>
+    <includes refid="memento_8h" local="no">memento.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_memento_1a293920fc8f0a0c8bcd3a48c3f82ed3dc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_state" kindref="compound">State</ref> *</type>
+        <definition>State* Memento::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="memento.h" line="10" column="1" bodyfile="memento.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_memento_1aee7c86623a8b81fda84ffe7d68895eb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Memento::Memento</definition>
+        <argsstring>(State *state)</argsstring>
+        <name>Memento</name>
+        <param>
+          <type><ref refid="class_state" kindref="compound">State</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="memento.h" line="12" column="1" bodyfile="memento.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_memento_1abbdf2924953cc15b11cd6d206490146b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_state" kindref="compound">State</ref> *</type>
+        <definition>State * Memento::getState</definition>
+        <argsstring>()</argsstring>
+        <name>getState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="memento.h" line="13" column="1" bodyfile="memento.cpp" bodystart="8" bodyend="11"/>
+        <referencedby refid="class_originator_1a4656bfe71adbb1ac5cbd2ffbbc5df278" compoundref="originator_8cpp" startline="18" endline="21">Originator::getStateFromMemento</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="23">
+        <label>Memento</label>
+        <link refid="class_memento"/>
+      </node>
+    </collaborationgraph>
+    <location file="memento.h" line="9" column="1" bodyfile="memento.h" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_memento_1abbdf2924953cc15b11cd6d206490146b" prot="public" virt="non-virtual"><scope>Memento</scope><name>getState</name></member>
+      <member refid="class_memento_1aee7c86623a8b81fda84ffe7d68895eb8" prot="public" virt="non-virtual"><scope>Memento</scope><name>Memento</name></member>
+      <member refid="class_memento_1a293920fc8f0a0c8bcd3a48c3f82ed3dc" prot="private" virt="non-virtual"><scope>Memento</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

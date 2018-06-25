@@ -1,0 +1,6 @@
+<map id="State::canGoNextState" name="State::canGoNextState">
+<area shape="rect" id="node2" href="$class_state.html#ac1ce8d14817ed7e73fe6c9cb52138059" title="State::getInformationAnd\lSaveState" alt="" coords="211,5,380,44"/>
+<area shape="rect" id="node3" href="$class_state.html#a24c0c03b0e0ae455f6fa4147c0a9b50c" title="State::infoIsValid" alt="" coords="235,68,356,93"/>
+<area shape="rect" id="node4" href="$class_state.html#a7c2060b170abf8d929d14ef257a7dd79" title="State::displayErroMsg" alt="" coords="220,117,371,143"/>
+<area shape="rect" id="node5" href="$class_state.html#a38b841d6fc5f6b26d6e5a7d1efdf4524" title="State::saveInContext" alt="" coords="223,167,368,192"/>
+</map>
